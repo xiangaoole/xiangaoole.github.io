@@ -317,25 +317,23 @@
     </footer>
   </article>
         </div>
-        <div id="comments-gitment"></div>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.min.css" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.min.js" crossorigin="anonymous"></script>
+        <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
-      var gitment = new Gitment({
+      var gitalk = new Gitalk({
         id: '2021-01-15 00:00:00 \u002b0000 UTC',
         title: '大理旅居生活指南',
-        link: decodeURI(location.href),
-        desc: '苍山洱海很美，但大理最吸引的我的地方其实是它宝贵的社区氛围。如果你想提前了解这种社区氛围是什么，不妨先阅读《大理访谈录：仿佛若有光》一书。 我',
-        owner: 'xiangaoole',
+        clientID: '31983210a0038a420b99',
+        clientSecret: 'c04a3b270d9a1ed73662b9f1def7f0446600e1b2',
         repo: 'xiangaoole.github.io',
-        oauth: {
-          client_id: '31983210a0038a420b99',
-          client_secret: 'c04a3b270d9a1ed73662b9f1def7f0446600e1b2'
-        }
+        owner: 'xiangaoole',
+        admin: ['xiangaoole'],
+        body: decodeURI(location.href)
       });
-      gitment.render('comments-gitment');
+      gitalk.render('gitalk-container');
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://github.com/imsun/gitment">comments powered by gitment.</a></noscript>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
 
   
 
