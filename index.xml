@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Even - A super concise theme for Hugo</title>
+    <link>https://xiangaoole.github.io/</link>
+    <description>Recent content on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 15 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://xiangaoole.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大理旅居生活指南</title>
+      <link>https://xiangaoole.github.io/post/2021-01-15_guidebook_of_life_in_dali/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiangaoole.github.io/post/2021-01-15_guidebook_of_life_in_dali/</guid>
+      <description>苍山洱海很美，但大理最吸引的我的地方其实是它宝贵的社区氛围。如果你想提前了解这种社区氛围是什么，不妨先阅读《大理访谈录：仿佛若有光》一书。 我</description>
+    </item>
+    
+  </channel>
+</rss>

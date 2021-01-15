@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://xiangaoole.github.io/sitemap.xml
