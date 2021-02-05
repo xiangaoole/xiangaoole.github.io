@@ -9,7 +9,21 @@
   </url>
   
   <url>
+    <loc>https://xiangaoole.github.io/tags/lian/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://xiangaoole.github.io/post/</loc>
+    <lastmod>2021-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xiangaoole.github.io/tags/</loc>
     <lastmod>2021-02-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +45,6 @@
   
   <url>
     <loc>https://xiangaoole.github.io/tags/shenzhen/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xiangaoole.github.io/tags/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
