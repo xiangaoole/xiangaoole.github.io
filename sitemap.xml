@@ -10,28 +10,105 @@
   
   <url>
     <loc>https://haroldgao.com/categories/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/post/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://haroldgao.com/categories/travel-journal/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
+    <loc>https://haroldgao.com/categories/travel/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/bali/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/philippines2/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/philippines/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/digitalnomad/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/categories/nomadism/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/vrglass/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/categories/figure/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/vivi/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/yangshuo/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/gapyear/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/banquet/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,13 +6,31 @@
     <description>Recent content in Categories on Harold&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>travel journal</title>
-      <link>https://haroldgao.com/categories/travel-journal/</link>
-      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      <title>travel</title>
+      <link>https://haroldgao.com/categories/travel/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://haroldgao.com/categories/travel-journal/</guid>
+      <guid>https://haroldgao.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nomadism</title>
+      <link>https://haroldgao.com/categories/nomadism/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://haroldgao.com/categories/nomadism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>figure</title>
+      <link>https://haroldgao.com/categories/figure/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://haroldgao.com/categories/figure/</guid>
       <description></description>
     </item>
     
