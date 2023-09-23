@@ -16,6 +16,20 @@
   </url>
   
   <url>
+    <loc>https://haroldgao.com/categories/english/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/gtd/</loc>
+    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://haroldgao.com/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -39,6 +53,13 @@
   <url>
     <loc>https://haroldgao.com/post/bali/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/english/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

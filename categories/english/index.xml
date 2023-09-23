@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>english on Harold&#39;s Blog</title>
+    <link>https://haroldgao.com/categories/english/</link>
+    <description>Recent content in english on Harold&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://haroldgao.com/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Things Done: My Take Away</title>
+      <link>https://haroldgao.com/post/gtd/</link>
+      <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://haroldgao.com/post/gtd/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Get Things Done&lt;/em&gt; is a self-help book written by David Allen, introduces some basic methods to arrange your daily tasks so that you can live a productive and stressless live. Here are my takeaways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>My English Learning Story</title>
+      <link>https://haroldgao.com/post/english/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://haroldgao.com/post/english/</guid>
+      <description>&lt;h2 id=&#34;part-1&#34;&gt;Part 1&lt;/h2&gt;
+&lt;p&gt;I am 27 years old now. I had my first English course around at the age of 10. At that time English was not a course being taught at elementary school, and it usually was taught starting in middle school. But my mother found a teacher to teach me simple English words on Saturdays. I mainly learned basic vocabulary, such as numbers, months and letters.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
