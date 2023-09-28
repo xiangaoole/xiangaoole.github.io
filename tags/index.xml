@@ -5,6 +5,8 @@
     <link>https://haroldgao.com/tags/</link>
     <description>Recent content in Tags on Harold&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://haroldgao.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
+    <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster><atom:link href="https://haroldgao.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
