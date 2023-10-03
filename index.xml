@@ -15,24 +15,24 @@
       <pubDate>Sat, 16 Sep 2023 00:00:00 +0000</pubDate>
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/post/gtd/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Get Things Done&lt;/em&gt; is a self-help book written by David Allen, introduces some basic methods to arrange your daily tasks so that you can live a productive and stressless live. Here are my takeaways.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Get Things Done&lt;/em&gt; is a self-help book written by David Allen, which introduces some basic methods to arrange your daily tasks so that you can live a productive and stressless life. Here are my takeaways.&lt;/p&gt;
 &lt;p&gt;The workflow of GTD consists of 5 steps (but remember, no need to finished all the steps at the same time):&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Capture. Get all things out of your mind and write down them to your inbox at any time.&lt;/li&gt;
-&lt;li&gt;Clarify. Check your inbox regularly. Clarify your target of each stuff and the way to reach your target.&lt;/li&gt;
-&lt;li&gt;Organize. If the stuff is just an idea that you might want to do but not now, you can leave it to a &lt;em&gt;someday&lt;/em&gt; list. If it is a reference to materials helpful to your other goals, collect it to your &lt;em&gt;reference&lt;/em&gt; system. Check your actionable goals and split your goals into action steps. If a step can be done within 2 minutes, just do it (without considering its priority). Or else, arrange a future time to do it in your &lt;em&gt;calendar&lt;/em&gt; or &lt;em&gt;delegate&lt;/em&gt; it to others.&lt;/li&gt;
-&lt;li&gt;Reflect. Review your inbox, someday list, next actions weekly and reorganize them if needed.&lt;/li&gt;
-&lt;li&gt;Engage. Pick one to-do and do it right now.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capture&lt;/strong&gt;. Get all things out of your mind and write down them to your &lt;strong&gt;📥Inbox&lt;/strong&gt; at any time.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clarify&lt;/strong&gt;. Find a time to check items in your inbox. &lt;em&gt;Is it actionable?&lt;/em&gt; If the stuff is just an idea that you might want to do but not now, you can leave it to a &lt;strong&gt;🔮someday&lt;/strong&gt; list. If it is a reference to materials helpful to your other goals, collect it to your &lt;strong&gt;📚Reference&lt;/strong&gt; system.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organize&lt;/strong&gt;. &lt;em&gt;Does your actionable item need more than one step?&lt;/em&gt; If so convert it to a &lt;strong&gt;⚙️Project&lt;/strong&gt; and find the fist step to do it. If a action can be done within 2 minutes, just do it (without considering its priority). &lt;em&gt;Does the step can be got about right now?&lt;/em&gt; If so put it into your &lt;strong&gt;⚡️Next&lt;/strong&gt; to-do list. Or else, arrange a future time to do it in your &lt;strong&gt;📅Calendar&lt;/strong&gt; or &lt;strong&gt;🤝Delegate&lt;/strong&gt; it to others.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reflect&lt;/strong&gt;. Review your &lt;strong&gt;Inbox&lt;/strong&gt;, &lt;strong&gt;Delegate&lt;/strong&gt; list, &lt;strong&gt;Next&lt;/strong&gt; actions weekly and reorganize them if needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Engage&lt;/strong&gt;. Pick one to-do from your &lt;strong&gt;Next&lt;/strong&gt; to-do list and do it right now.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;https://assets.website-files.com/608aecd1e643ecaa961a7a67/634cd40129d4e1311a6c292a_GTD%2001.png&#34; alt=&#34;The procedure for GTD&#34;&gt;&lt;/p&gt;
 &lt;p&gt;After your organization, the stuff can be divided into these places:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Project list: Desired results which require more than one action step. And you can organize your project support material by theme or topic inside the project.&lt;/li&gt;
-&lt;li&gt;Next Actions list: Actions needs to be done &lt;em&gt;today&lt;/em&gt; or &lt;em&gt;anytime&lt;/em&gt;.&lt;/li&gt;
-&lt;li&gt;Delegate list: Projects waiting for other people’s responses.&lt;/li&gt;
-&lt;li&gt;Calendar: 1. time-specific actions such as an appointment that are going to happen on a specific time; 2. day-specific actions such as to call someone on his/her birthday; 3. day-specific information, such as directions for appointments.&lt;/li&gt;
-&lt;li&gt;Someday list: Projects your don’t want to do recently, but you’d like to be reminded of them regularly on your weekly reviews.&lt;/li&gt;
-&lt;li&gt;Reference System: Reference to materials you may need.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project&lt;/strong&gt; list: Desired results which require more than one action step. And you can organize your project support material by theme or topic inside the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Next&lt;/strong&gt; Actions list: Actions needs to be done &lt;em&gt;today&lt;/em&gt; or &lt;em&gt;anytime&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delegate&lt;/strong&gt; list: Projects waiting for other people’s responses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Calendar&lt;/strong&gt;: 1. time-specific actions such as an appointment that are going to happen on a specific time; 2. day-specific actions such as to call someone on his/her birthday; 3. day-specific information, such as directions for appointments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Someday&lt;/strong&gt; list: Projects your don’t want to do recently, but you’d like to be reminded of them regularly on your weekly reviews.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reference&lt;/strong&gt; System: Reference to materials you may need.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;To combine this method with Things 3 app:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;gtd-things3.png&#34; alt=&#34;GTD with Things 3 app&#34;&gt;&lt;/p&gt;
