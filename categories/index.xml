@@ -8,7 +8,16 @@
     <language>en-us</language>
     <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
     <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster>
-    <lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Oct 2023 08:51:51 +0700</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nomadism</title>
+      <link>https://haroldgao.com/categories/nomadism/</link>
+      <pubDate>Mon, 02 Oct 2023 08:51:51 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/categories/nomadism/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>english</title>
       <link>https://haroldgao.com/categories/english/</link>
@@ -24,15 +33,6 @@
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/categories/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nomadism</title>
-      <link>https://haroldgao.com/categories/nomadism/</link>
-      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
-      <author>xiangaoole@gmail.com (Harold Gao)</author>
-      <guid>https://haroldgao.com/categories/nomadism/</guid>
       <description></description>
     </item>
     
