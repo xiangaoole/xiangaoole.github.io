@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nomadism on 哈羅德的博客</title>
+    <link>https://haroldgao.com/zh-tw/categories/nomadism/</link>
+    <description>Recent content in nomadism on 哈羅德的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
+    <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster>
+    <lastBuildDate>Mon, 02 Oct 2023 08:51:51 +0700</lastBuildDate><atom:link href="https://haroldgao.com/zh-tw/categories/nomadism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中文播客推薦</title>
+      <link>https://haroldgao.com/zh-tw/post/podcast/</link>
+      <pubDate>Mon, 02 Oct 2023 08:51:51 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-tw/post/podcast/</guid>
+      <description>播客（Podcast）是一種類似古早時期廣播電台的音訊節目形式。它的製作成本比影片內容低，比文字內容高。比起閱讀文字，聽播客要輕鬆很多，比起</description>
+    </item>
+    
+    <item>
+      <title>「只工作，不上班」中的數位遊民</title>
+      <link>https://haroldgao.com/zh-tw/post/digitalnomad/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-tw/post/digitalnomad/</guid>
+      <description>「現在的年輕人，為什麼都不想上班了」？ 2018 年2 月，在看完《圓桌派》「不想上班怎麼破」的一期節目後，林安——一位做數位媒體行銷的上班族，在豆瓣寫</description>
+    </item>
+    
+    <item>
+      <title>不上班的這一年</title>
+      <link>https://haroldgao.com/zh-tw/post/gapyear/</link>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-tw/post/gapyear/</guid>
+      <description>2020 年7 月初，拿到了公司的離職證明，在7 月的烈陽下騎著小黃車離開公司大樓，路上人很少，路面熱氣騰騰，陽光明晃晃的。 2021 年6 月下旬，即將入職新的工</description>
+    </item>
+    
+  </channel>
+</rss>
