@@ -3,28 +3,35 @@
   
   <url>
     <loc>https://haroldgao.com/zh-cn/categories/</loc>
-    <lastmod>2023-11-05T08:26:03+07:00</lastmod>
+    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/zh-cn/categories/english/</loc>
-    <lastmod>2023-11-05T08:26:03+07:00</lastmod>
+    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/zh-cn/post/</loc>
-    <lastmod>2023-11-05T08:26:03+07:00</lastmod>
+    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/zh-cn/</loc>
-    <lastmod>2023-11-05T08:26:03+07:00</lastmod>
+    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/engshare2/</loc>
+    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
