@@ -100,6 +100,9 @@ footer {
   background: #eee;
 }
 
+.app-icon {
+  width: 150px; /* Adjusted for consistency */
+}
 @media (max-width: 768px) {
   .app-icon {
     width: 80px; /* Adjusted for consistency */
