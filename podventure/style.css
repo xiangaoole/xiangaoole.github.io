@@ -32,9 +32,18 @@ h2 {
 
 #download .download-buttons {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
   margin-top: 20px;
+}
+
+.download-item {
+  display: flex;
+  flex-direction: column; /* Ensures vertical alignment of children */
+  align-items: center; /* Centers children horizontally */
+  text-align: center;
+  margin-bottom: 20px; /* Adjust based on your design */
 }
 
 .button {
@@ -45,6 +54,7 @@ h2 {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  margin-bottom: 5px; /* Space between the button and version info */
 }
 
 .button.ios {
@@ -71,17 +81,15 @@ h2 {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  position: absolute;
+  /* Adjusted positioning for clarity */
+  position: relative; /* Tooltip appears below the button/version info */
   z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
+  margin-top: 5px; /* Space between version info and tooltip */
   opacity: 0;
   transition: opacity 0.3s;
 }
 
-.download-buttons .disabled:hover + .tooltip,
-.download-buttons .disabled:focus + .tooltip {
+.download-item:hover .tooltip {
   visibility: visible;
   opacity: 1;
 }
@@ -93,20 +101,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .download-buttons {
-    flex-direction: column;
-  }
-}
-
-.app-icon {
-  display: block;
-  margin: 0 auto 20px;
-  width: 100px; /* Adjust this value based on your preference */
-  height: auto;
-}
-
-@media (max-width: 768px) {
   .app-icon {
-    width: 80px; /* Smaller size for mobile devices */
+    width: 80px; /* Adjusted for consistency */
   }
 }
