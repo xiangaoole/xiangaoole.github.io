@@ -1,0 +1,11 @@
+# Release Notes
+
+## v1.0.1
+
+Version Features:
+
+1. Search Functionality: Quickly find episodes by title and description with highlighted keywords, making discovery efficient.
+2. Listening List: Queue up your next episodes and auto-download them within your set limit for seamless listening.
+3. Listening History: Easily track and revisit episodes you've played, organized by recent listening activity.
+4. Show Notes Display: Access detailed episode notes beautifully presented for deeper insights.
+5. Episode Filtering: Customize your view with filters for played, downloaded, or all episodes, and sort by release date or duration for a tailored experience.
