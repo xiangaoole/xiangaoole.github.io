@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podventures on Harold&#39;s Blog</title>
+    <link>https://haroldgao.com/podventure/</link>
+    <description>Recent content in Podventures on Harold&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
+    <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster><atom:link href="https://haroldgao.com/podventure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://haroldgao.com/podventure/release-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/podventure/release-notes/</guid>
+      <description>Release Notes v1.0.1 Version Features:
+Search Functionality: Quickly find episodes by title and description with highlighted keywords, making discovery efficient. Listening List: Queue up your next episodes and auto-download them within your set limit for seamless listening. Listening History: Easily track and revisit episodes you&amp;rsquo;ve played, organized by recent listening activity. Show Notes Display: Access detailed episode notes beautifully presented for deeper insights. Episode Filtering: Customize your view with filters for played, downloaded, or all episodes, and sort by release date or duration for a tailored experience.</description>
+    </item>
+    
+  </channel>
+</rss>
