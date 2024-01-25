@@ -94,6 +94,26 @@ h2 {
   opacity: 1;
 }
 
+.contact-method {
+  margin: 10px 0;
+}
+
+.contact-logo {
+  width: 24px; /* Adjust based on your logo size */
+  height: 24px; /* Adjust based on your logo size */
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #333; /* Dark text color for better readability */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 20px;
