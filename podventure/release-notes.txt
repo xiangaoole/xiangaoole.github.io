@@ -1,5 +1,11 @@
 # Release Notes
 
+## v1.0.2 
+
+Fix: 
+- Http image not shown on Episode show notes;
+- Playing episode modal and playlist modal jump to episode on tab Discover;
+
 ## v1.0.1
 
 Version Features:
