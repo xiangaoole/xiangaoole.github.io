@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>How to Import Your Apple Podcast Subscription List into Other Podcast Apps - Harold&#39;s Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author"
+  content="Harold Gao" /><meta name="description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
+Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).
+2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:" /><meta name="keywords"
+  content="Harold, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.118.2 with theme even" />
+
+
+<link rel="canonical" href="https://haroldgao.com/post/opml/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/%20apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/%20favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/%20favicon-16x16.png">
+<link rel="manifest" href="/%20manifest.json">
+<link rel="mask-icon" href="/%20safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.8f5bc8460222d75db7fe377694f3b10cfd87d27ea7e7c3f4743a27c44a1516a1.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps" />
+<meta property="og:description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
+Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
+2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://haroldgao.com/post/opml/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-10-09T10:53:54+07:00" />
+<meta property="article:modified_time" content="2023-10-09T10:53:54+07:00" />
+<meta itemprop="name" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps">
+<meta itemprop="description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
+Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
+2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:"><meta itemprop="datePublished" content="2023-10-09T10:53:54+07:00" />
+<meta itemprop="dateModified" content="2023-10-09T10:53:54+07:00" />
+<meta itemprop="wordCount" content="365">
+<meta itemprop="keywords" content="podcast," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps"/>
+<meta name="twitter:description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
+Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
+2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:"/>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0JZ6L8R2S"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-E0JZ6L8R2S', { 'anonymize_ip': true });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Harold&#39;s Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/resume/">
+        <li class="mobile-menu-item">Resume</li>
+      </a>
+  </ul>
+
+  
+
+  <div class="language-selector">
+    <ul class="languages-list">
+      
+        
+        
+
+        <li class="language-item active">
+          
+            <a href="https://haroldgao.com/post/opml/">English</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-cn/post/opml/">简体中文</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-tw/">繁體中文</a>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Harold&#39;s Blog</a>
+</div>
+
+
+
+  <div class="language-selector">
+    <ul class="languages-list">
+      
+        
+        
+
+        <li class="language-item active">
+          
+            <a href="https://haroldgao.com/post/opml/">English</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-cn/post/opml/">简体中文</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-tw/">繁體中文</a>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/resume/">Resume</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">How to Import Your Apple Podcast Subscription List into Other Podcast Apps</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> Oct 9, 2023 </span>
+        <div class="post-category">
+            <a href="/categories/podcast/"> podcast </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h2 id="1-what-is-opml-format">1 What is OPML Format</h2>
+<p>OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.</p>
+<p>Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).</p>
+<h2 id="2-how-to-import-your-apple-podcast-subscription-list-into-other-podcast-apps">2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps</h2>
+<p>First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:</p>
+<p><a href="https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915">https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915</a></p>
+<p>(This shortcut link is created and maintained by Harold, and the latest version can be obtained from <a href="https://haroldgao.com/post/opml">https://haroldgao.com/post/opml</a>)</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down" alt="Export Apple Podcast Subscription List to OPML"></p>
+<p>Then, choose your target podcast app and add the OPML file:</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down" alt="Import OPML into Podventure Podcast Player"></p>
+<h2 id="ps-opml-format-specification">P.S. OPML Format Specification</h2>
+<p><a href="http://opml.org/spec2.opml">OPML files</a> are a simple XML format used for list management, widely used for RSS feed subscriptions. It can be understood as a multi-branched tree, where each node is called an outline. Each node can either be the end of a branch or can split into other branches.</p>
+<p>Because podcast lists only need to provide a list node, they usually have only one layer of outline (used by Overcast) or two layers (used by Pocket Podcast).</p>
+<p>The single-layer structure used by Overcast looks like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">showOneData</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">showTwoData</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">showThreeData</span><span class="nt">/&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Pocket Podcast&rsquo;s two-layer structure, which includes a root node outline, looks like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;outline&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">showOneData</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">showTwoData</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">showThreeData</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/outline&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The data format for a podcast is an RSS file. The most basic outline node in a generic OPML file contains a text field for the podcast show name and an xmlUrl field for the RSS file download URL of the podcast show.</p>
+<p>All data for a podcast are stored in the RSS file, which includes the podcast&rsquo;s introduction, images, categories, etc., and an item list that stores the title of each episode, show notes, images, duration, audio file download URL, etc.</p>
+<p>Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. <a href="https://www.haroldgao.com/podventure/">Podventure</a> is one such generic podcast app.</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Harold Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        Oct 9, 2023
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/podcast/">podcast</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/gapyear2023/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">In 28, my 4th month of traveling around the world</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/lifeofpi/">
+            <span class="next-text nav-default">Life of Pi</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xiangaoole@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/HaroldGaoX" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/haroldgaox/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/xiangaoole" class="iconfont icon-github" title="github"></a>
+  <a href="https://haroldgao.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021 - 
+    2024<span class="heart"><i class="iconfont icon-heart"></i></span><span>Harold Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

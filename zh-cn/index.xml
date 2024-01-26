@@ -142,6 +142,65 @@
     </item>
     
     <item>
+      <title>如何把Apple Podcast的订阅列表导入到其它播客app</title>
+      <link>https://haroldgao.com/zh-cn/post/opml/</link>
+      <pubDate>Mon, 09 Oct 2023 10:53:54 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-cn/post/opml/</guid>
+      <description>&lt;h2 id=&#34;一什么是-opml-格式&#34;&gt;一、什么是 OPML 格式&lt;/h2&gt;
+&lt;p&gt;OPML 文件是播客 app 通用的播客列表保存格式，它是一个文本文件，可以用任何文本编辑器打开查看，里面包含了一个播客数据获取地址的列表。&lt;/p&gt;
+&lt;p&gt;播客 app 读取 OPML 文件，就可以导入你订阅的播客节目信息（RSS 地址）。&lt;/p&gt;
+&lt;h2 id=&#34;二如何把小宇宙-app-的订阅列表导入到其他播客-app&#34;&gt;二、如何把小宇宙 app 的订阅列表导入到其他播客 app&lt;/h2&gt;
+&lt;p&gt;首先，在小宇宙 app 的设置页面导出订阅列表到文件：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/33db8c0b-8b98-4eb4-aea9-52de351644d6.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;小宇宙播客app导出订阅列表OPML&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后，选择你的目标播客 app，添加 OPML 文件：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Podventure播客app导入订阅列表OPML&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三如何把-apple-podcast-的订阅列表导入到其它播客-app&#34;&gt;三、如何把 Apple Podcast 的订阅列表导入到其它播客 app&lt;/h2&gt;
+&lt;p&gt;首先，打开 shortcuts 的 iCloud Link 链接，添加到你的 Shortcuts，执行这条捷径，将订阅列表保存到文件：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&#34;&gt;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（本 shortcuts 链接由 Harold 创建并维护，最新版本地址可以从 &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt; 获取）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Apple Podcast的订阅列表导出&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后，和上一步同样，导入你的目标播客 app 即可。&lt;/p&gt;
+&lt;h2 id=&#34;ps-opml-格式规范&#34;&gt;P.S. OPML 格式规范&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://opml.org/spec2.opml&#34;&gt;OPML 文件&lt;/a&gt;是一种简单的用于列表管理的 xml 格式文件，被广泛使用在 RSS 列表订阅中。可以把它理解为一颗多叉树，每个节点叫做 outline，每个节点可以是枝干的末端，也可以分叉出其它枝干。&lt;/p&gt;
+&lt;p&gt;播客列表因为只需要提供一个列表节点，所以通常只有一层 outline （Overcast 使用）或者两层（小宇宙使用）。&lt;/p&gt;
+&lt;p&gt;Overcast 的一层结构是这样：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客1的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客2的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客3的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;小宇宙的两层结构是这样，多了一个根结点 outline：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客1的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客2的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客3的数据&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;播客的数据格式为 RSS 文件，通用的 OPML 文件最基本的 outline 节点里，包含一个 text 字段保存播客节目名称，一个 xmlUrl 字段保存播客节目的 RSS 文件下载地址。&lt;/p&gt;
+&lt;p&gt;一个播客的数据全都保存在了 RSS 文件里，这个文件里包含了播客节目的介绍、图片、分类等信息，同时还有一个 item 列表保存了每一期节目的标题、show notes、图片、时长、音频文件下载地址等信息。&lt;/p&gt;
+&lt;p&gt;泛用型播客 app 通过解析这种通用的 OPML 或者 RSS 文件，就可以订阅一个播客节目列表或者展示单个播客节目的所有信息。&lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; 就是这样一个泛用型播客 app。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>圆周率的一生</title>
       <link>https://haroldgao.com/zh-cn/post/lifeofpi/</link>
       <pubDate>Mon, 09 Oct 2023 10:53:54 +0700</pubDate>
