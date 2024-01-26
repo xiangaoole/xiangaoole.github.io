@@ -8,7 +8,62 @@
     <language>en-US</language>
     <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
     <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster>
-    <lastBuildDate>Tue, 05 Dec 2023 08:26:03 +0700</lastBuildDate><atom:link href="https://haroldgao.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jan 2024 10:53:54 +0700</lastBuildDate><atom:link href="https://haroldgao.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Import Your Apple Podcast Subscription List into Other Podcast Apps</title>
+      <link>https://haroldgao.com/post/opml/</link>
+      <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/post/opml/</guid>
+      <description>&lt;h2 id=&#34;1-what-is-opml-format&#34;&gt;1 What is OPML Format&lt;/h2&gt;
+&lt;p&gt;OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.&lt;/p&gt;
+&lt;p&gt;Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).&lt;/p&gt;
+&lt;h2 id=&#34;2-how-to-import-your-apple-podcast-subscription-list-into-other-podcast-apps&#34;&gt;2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps&lt;/h2&gt;
+&lt;p&gt;First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&#34;&gt;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(This shortcut link is created and maintained by Harold, and the latest version can be obtained from &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Export Apple Podcast Subscription List to OPML&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Then, choose your target podcast app and add the OPML file:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Import OPML into Podventure Podcast Player&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ps-opml-format-specification&#34;&gt;P.S. OPML Format Specification&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://opml.org/spec2.opml&#34;&gt;OPML files&lt;/a&gt; are a simple XML format used for list management, widely used for RSS feed subscriptions. It can be understood as a multi-branched tree, where each node is called an outline. Each node can either be the end of a branch or can split into other branches.&lt;/p&gt;
+&lt;p&gt;Because podcast lists only need to provide a list node, they usually have only one layer of outline (used by Overcast) or two layers (used by Pocket Podcast).&lt;/p&gt;
+&lt;p&gt;The single-layer structure used by Overcast looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showOneData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showTwoData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showThreeData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Pocket Podcast&amp;rsquo;s two-layer structure, which includes a root node outline, looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showOneData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showTwoData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showThreeData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The data format for a podcast is an RSS file. The most basic outline node in a generic OPML file contains a text field for the podcast show name and an xmlUrl field for the RSS file download URL of the podcast show.&lt;/p&gt;
+&lt;p&gt;All data for a podcast are stored in the RSS file, which includes the podcast&amp;rsquo;s introduction, images, categories, etc., and an item list that stores the title of each episode, show notes, images, duration, audio file download URL, etc.&lt;/p&gt;
+&lt;p&gt;Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. &lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; is one such generic podcast app.&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>English Recommendation 2: Evening Mist Garden &#43; View of Happiness</title>
       <link>https://haroldgao.com/post/engshare2/</link>
@@ -131,61 +186,6 @@
 &lt;p&gt;During the month I was in Bali, I was still writing an English diary every day. I put it on the Internet and asked native English speakers to help me revise it. It took me a month to revise it. This process was not fun, so I stopped writing when I arrived in Penang.&lt;/p&gt;
 &lt;p&gt;After arriving in Penang, I started listening to a lot of English podcasts. When I left Penang, I was sitting at the airport. When I heard the airport announcement again, I found that I could understand most of it.&lt;/p&gt;
 &lt;p&gt;My daily routine at this stage is typing in English podcasts and novels, trying to develop independent projects, and meditating. These are things that, after a period of iteration, I found myself interested in doing over the long term. But these things have not yet formed a project that can be used as a career. I want a profitable and interesting project that allows me to continue my nomadic life for a long time. As it stands, if my independent development project can be profitable and cover my daily expenses, I will have achieved my goal.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to Import Your Apple Podcast Subscription List into Other Podcast Apps</title>
-      <link>https://haroldgao.com/post/opml/</link>
-      <pubDate>Mon, 09 Oct 2023 10:53:54 +0700</pubDate>
-      <author>xiangaoole@gmail.com (Harold Gao)</author>
-      <guid>https://haroldgao.com/post/opml/</guid>
-      <description>&lt;h2 id=&#34;1-what-is-opml-format&#34;&gt;1 What is OPML Format&lt;/h2&gt;
-&lt;p&gt;OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.&lt;/p&gt;
-&lt;p&gt;Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).&lt;/p&gt;
-&lt;h2 id=&#34;2-how-to-import-your-apple-podcast-subscription-list-into-other-podcast-apps&#34;&gt;2 How to Import Your Apple Podcast Subscription List into Other Podcast Apps&lt;/h2&gt;
-&lt;p&gt;First, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&#34;&gt;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(This shortcut link is created and maintained by Harold, and the latest version can be obtained from &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Export Apple Podcast Subscription List to OPML&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Then, choose your target podcast app and add the OPML file:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Import OPML into Podventure Podcast Player&#34;&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ps-opml-format-specification&#34;&gt;P.S. OPML Format Specification&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://opml.org/spec2.opml&#34;&gt;OPML files&lt;/a&gt; are a simple XML format used for list management, widely used for RSS feed subscriptions. It can be understood as a multi-branched tree, where each node is called an outline. Each node can either be the end of a branch or can split into other branches.&lt;/p&gt;
-&lt;p&gt;Because podcast lists only need to provide a list node, they usually have only one layer of outline (used by Overcast) or two layers (used by Pocket Podcast).&lt;/p&gt;
-&lt;p&gt;The single-layer structure used by Overcast looks like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showOneData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showTwoData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showThreeData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Pocket Podcast&amp;rsquo;s two-layer structure, which includes a root node outline, looks like this:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showOneData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showTwoData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;showThreeData&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/outline&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;The data format for a podcast is an RSS file. The most basic outline node in a generic OPML file contains a text field for the podcast show name and an xmlUrl field for the RSS file download URL of the podcast show.&lt;/p&gt;
-&lt;p&gt;All data for a podcast are stored in the RSS file, which includes the podcast&amp;rsquo;s introduction, images, categories, etc., and an item list that stores the title of each episode, show notes, images, duration, audio file download URL, etc.&lt;/p&gt;
-&lt;p&gt;Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. &lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; is one such generic podcast app.&lt;/p&gt;
 </description>
     </item>
     

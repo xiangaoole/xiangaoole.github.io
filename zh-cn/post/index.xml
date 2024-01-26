@@ -8,7 +8,16 @@
     <language>zh-CN</language>
     <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
     <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster>
-    <lastBuildDate>Tue, 05 Dec 2023 08:26:03 +0700</lastBuildDate><atom:link href="https://haroldgao.com/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jan 2024 10:53:54 +0700</lastBuildDate><atom:link href="https://haroldgao.com/zh-cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何把Apple Podcast的订阅列表导入到其它播客app</title>
+      <link>https://haroldgao.com/zh-cn/post/opml/</link>
+      <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-cn/post/opml/</guid>
+      <description>一、什么是 OPML 格式 OPML 文件是播客 app 通用的播客列表保存格式，它是一个文本文件，可以用任何文本编辑器打开查看，里面包含了一个播客数据获取地址的列表。</description>
+    </item>
+    
     <item>
       <title>英语推荐2:夕雾花园&#43;幸福观</title>
       <link>https://haroldgao.com/zh-cn/post/engshare2/</link>
@@ -35,15 +44,6 @@
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/zh-cn/post/gapyear2023/</guid>
       <description>&lt;p&gt;2023年10月中旬，环球旅行的第4个月，Harold在泰国北部城市清迈度过了自己的28岁生日。本文作为间隔年中途的回顾，回顾这一路上的经历、收获和困惑。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何把Apple Podcast的订阅列表导入到其它播客app</title>
-      <link>https://haroldgao.com/zh-cn/post/opml/</link>
-      <pubDate>Mon, 09 Oct 2023 10:53:54 +0700</pubDate>
-      <author>xiangaoole@gmail.com (Harold Gao)</author>
-      <guid>https://haroldgao.com/zh-cn/post/opml/</guid>
-      <description>一、什么是 OPML 格式 OPML 文件是播客 app 通用的播客列表保存格式，它是一个文本文件，可以用任何文本编辑器打开查看，里面包含了一个播客数据获取地址的列表。</description>
     </item>
     
     <item>

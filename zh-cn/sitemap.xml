@@ -3,27 +3,55 @@
   
   <url>
     <loc>https://haroldgao.com/zh-cn/categories/</loc>
-    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://haroldgao.com/zh-cn/categories/english/</loc>
-    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
+    <loc>https://haroldgao.com/zh-cn/tags/podcast/</loc>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/categories/podcast/</loc>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/zh-cn/post/</loc>
-    <lastmod>2023-12-05T08:26:03+07:00</lastmod>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/tags/</loc>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/zh-cn/</loc>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/opml/</loc>
+    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/categories/english/</loc>
     <lastmod>2023-12-05T08:26:03+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -52,34 +80,6 @@
   
   <url>
     <loc>https://haroldgao.com/zh-cn/tags/ang-lee/</loc>
-    <lastmod>2023-10-09T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-cn/tags/podcast/</loc>
-    <lastmod>2023-10-09T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-cn/categories/podcast/</loc>
-    <lastmod>2023-10-09T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-cn/tags/</loc>
-    <lastmod>2023-10-09T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-cn/post/opml/</loc>
     <lastmod>2023-10-09T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
