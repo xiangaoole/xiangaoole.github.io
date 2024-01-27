@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>当一个播客爱好者决定开发自己的播客APP - 哈羅德的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author"
+  content="Harold Gao" /><meta name="description" content="Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。
+" /><meta name="keywords"
+  content="Harold, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.118.2 with theme even" />
+
+
+<link rel="canonical" href="https://haroldgao.com/zh-tw/post/podventure/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/%20apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/%20favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/%20favicon-16x16.png">
+<link rel="manifest" href="/%20manifest.json">
+<link rel="mask-icon" href="/%20safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.8f5bc8460222d75db7fe377694f3b10cfd87d27ea7e7c3f4743a27c44a1516a1.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="当一个播客爱好者决定开发自己的播客APP" />
+<meta property="og:description" content="Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://haroldgao.com/zh-tw/post/podventure/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-01-27T10:53:54+07:00" />
+<meta property="article:modified_time" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="name" content="当一个播客爱好者决定开发自己的播客APP">
+<meta itemprop="description" content="Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。"><meta itemprop="datePublished" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="dateModified" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="wordCount" content="3039">
+<meta itemprop="keywords" content="podcast," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="当一个播客爱好者决定开发自己的播客APP"/>
+<meta name="twitter:description" content="Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。"/>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0JZ6L8R2S"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-E0JZ6L8R2S', { 'anonymize_ip': true });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/zh-tw/" class="logo">哈羅德的博客</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/zh-tw/">
+        <li class="mobile-menu-item">首頁</li>
+      </a><a href="/zh-tw/post/">
+        <li class="mobile-menu-item">所有文章</li>
+      </a><a href="/zh-tw/categories/">
+        <li class="mobile-menu-item">合集</li>
+      </a><a href="/zh-tw/resume/">
+        <li class="mobile-menu-item">履歷</li>
+      </a>
+  </ul>
+
+  
+
+  <div class="language-selector">
+    <ul class="languages-list">
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/">English</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-cn/post/podventure/">简体中文</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item active">
+          
+            <a href="https://haroldgao.com/zh-tw/post/podventure/">繁體中文</a>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/zh-tw/" class="logo">哈羅德的博客</a>
+</div>
+
+
+
+  <div class="language-selector">
+    <ul class="languages-list">
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/">English</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item ">
+          
+            <a href="https://haroldgao.com/zh-cn/post/podventure/">简体中文</a>
+          
+        </li>
+      
+        
+        
+
+        <li class="language-item active">
+          
+            <a href="https://haroldgao.com/zh-tw/post/podventure/">繁體中文</a>
+          
+        </li>
+      
+    </ul>
+  </div>
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/">首頁</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/post/">所有文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/categories/">合集</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/resume/">履歷</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">当一个播客爱好者决定开发自己的播客APP</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> Jan 27, 2024 </span>
+        <div class="post-category">
+            <a href="/zh-tw/categories/podcast/"> podcast </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/a4cd1720-113c-40e8-939d-c85eaf6d4c44.png/w=1376,h=5504,fit=scale-down" alt="Podventure app icon"></p>
+<h2 id="一人有故事从听播客到做播客-app">一、人有故事：从听播客到做播客 app</h2>
+<p>2020 年初，我还在深圳做一名码农，周末傍晚在海边跑步时，用小宇宙 app 密集收听了 Jade 的《晚风说》，产生了对大理社区生活的某种向往。那一年 7 月，被 996 的工作压得喘不过气、找不到生活意义，25 岁的我瞒着父母裸辞了一年，年底去<a href="https://mp.weixin.qq.com/s/wYty2TqtHW8zhdkIPtL1sQ">大理旅居</a>了两个月。</p>
+<p>2021 年 6 月回到职场，听播客《知行小酒馆》了解到孟岩和也谈钱，开始定投 A 股基金，开始更加细致地记账，买了保险，有了理财的概念。那时我给自己画的大饼是工作到 35 岁，就可以攒下足够一个人低成本财务自由的储蓄，就可以再也不用上这破儿班，过上 FIRE（经济独立、提前退休）的生活了。</p>
+<p>2022 年清明节前，听完爱彼迎的播客《气垫床与早餐》后，我修改了去阳朔的行程，多定了 3 晚住宿，住进了“待客之道”荣誉得主 Betty 的老房子，有了一段<a href="https://mp.weixin.qq.com/s/Wo8IsHneaDvK_pKF9CMsmw">难忘的体验</a>。</p>
+<p>2023 年初，两年前在大理埋下的种子开始发芽。对于数字游民生活的向往，对于 FIRE 计划的怀疑，对于当下感受的尊重，驱使我决定去追随自己内心的声音。那段时间，我听了很多数字游民相关的播客，从自由会客厅的《逆行人生》，到瑜伽品牌创业者艾立森王的《煽风点火》，到公众号作者苔岛的《外面有路》，再到音乐人丸子里里在《非正常旅行》等播客上的宝藏分享，我自己对于数字游民的概念开始形成。</p>
+<p>2023 年 6 月第二次裸辞，这次早早和家人坦白了一切，抱着坚定的探索数字游民生活的决心，去追随宇宙的信号。7 月 1 日，第一次走出国门，开始了历经 6 个月、5 个国家、6 座城市的<a href="https://mp.weixin.qq.com/s/3HohsxibitN8qhDYh-7SBw">海外旅行</a>。</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/20a32930-81ee-4489-ad54-e1fb4eb4e103.png/w=1376,h=5504,fit=scale-down" alt="6 个月、5 个国家、6 座城市"></p>
+<p>从菲律宾的沉浸式英语学习开始，我的英语思维一下子打开。在马尼拉机场遇到听不懂机场播音的窘境之后，我把当时尴尬的感受化作一股强大的驱动力，决心去提高听力水平。在马来西亚时，无所事事的我开始探索英语播客的世界，听英语播客甚至提高了我的英文阅读速度。</p>
+<p>中文播客世界里，小宇宙 app 一枝独秀。但我来到英语播客世界后，开始头疼。起初使用 iPhone 自带的 Podcast 听英语播客，但是不能在一个节目内搜索单集是它的一个大问题；于是我转而使用另一款大受好评的 Overcast，但是它又没有历史播放记录，搜索功能也有瑕疵，我开始怀念小宇宙的简单易用；为了找一款有播放列表的 app，我还尝试了 Pocket Cast 等等其它播客。3 个月下来，从马来西亚，听到泰国，再到老挝，我发现虽然各路 app 各有特色，但它们单独使用起来都不足以满足我的所有需求。</p>
+<p>在各路英语播客 app 间辗转之后，经过一番犹豫，我最终决定自己动手，开发一款让我觉得足够好用的英语播客 app。</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/1634c44a-ad2c-47c5-9044-76d59576466a.jpeg/w=1376,h=5504,fit=scale-down" alt="2023年11月21日的犹豫"></p>
+<h2 id="二就是干活把你喜欢的事情做到极致">二、就是干活：把你喜欢的事情做到极致</h2>
+<p>故事还有另一种讲法。</p>
+<p>硕士毕业之后，我在大厂安卓开发的岗位上工作了三年，但我始终觉得，自己不是一个优秀的程序员，对于编程本身也没有足够的热情。我需要一个驱动力。</p>
+<p>2020 年裸辞来大理的时候，我很焦虑，失去了工作头衔之后，我对这个社会有什么价值呢，我该如何向别人介绍自己呢？一个裸辞来大理逃避现实的年轻人，一个能力平庸的程序员，一个什么爱好都没有的工科生？</p>
+<p>奇怪的是，回到深圳埋头找工作之后，这种焦虑就消失了。大城市忙碌的生活节奏让人可以轻松逃避去思考人生的重大问题，一个外部施加于你的轨道和定义可以让你逃避自己去寻找。</p>
+<p>2022 年清明节在<a href="https://mp.weixin.qq.com/s/Wo8IsHneaDvK_pKF9CMsmw">阳朔的 7 天旅行</a>，再次让我看到人在野性自由的环境中所闪耀的生命力。在群山环绕的村庄里打着雨伞倾听小桥流水，和一群萍水相逢的人围着篝火合唱歌谣，吊在半空面对坚硬的岩石和脚下的悬空进退两难，戴着安全帽在地穴深处的缝隙里回望黑黢黢的来路，骑着摩托车在乡村小路上狂飙前往溯溪的山谷，还有路途上令人感动的旅伴。</p>
+<p>从阳朔回来不久，我买了一把雅马哈的木吉他，开始学习弹琴。我想要回味合唱时那种浪漫的令人心动的氛围，它和编程的世界迥乎不同，它是我在上班之外的避风港。</p>
+<p>作为一个收入可观而开销很少的程序员，只要我在岗位上坚持到 35 岁，我的存款和理财就足够我在不结婚、没孩子、退居二线的条件下，过上经济独立、提前退休的养老生活，这是当时我给自己画的大饼。</p>
+<p>但是有什么不对呢？用一个“以后就好了”的安慰，就可以压抑和忍受当下身体的、心理的感受吗？未来会不会永远不会到来？当下的存在只是未来的垫脚石吗？从高中到大学到工作，我们的人生里有多少这样的期待，处在过去所期待的未来的我们，真的幸福了吗？</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/73224e36-c243-4c29-8234-636fe634c115.jpeg/w=1376,h=5504,fit=scale-down" alt=""></p>
+<p>2020 年 12 月在大理古城书理图书馆，一个微胖的和蔼的男生跟我打招呼，他就是 Ren，一位裸辞的谷歌程序员、大理 706 社区共建者，也是后来“瓦猫之夏”的发起人。他在临走前留给我一句话，“把你喜欢的事情做到极致，机会就会出现。”</p>
+<p>在国内的教育里，没有人在乎你热爱什么，而是在意你对国家、对社会、对家族有什么贡献，告诉你你应该成为什么样子。</p>
+<p>2023 年 2 月在数字游民写作班，我在每日写作里记录了内心的担忧，‘如果不出去探索一番，人生可能会顺顺利利，中年富足，但内心总觉得有另一种可能的人生没有发生，有一点不甘；但如果我再次裸辞出去探索，40 岁的时候还没有稳定的收入，没有建立家庭，孤身一人还在漂泊，那我可以接受这样的自己吗，面对家人熟人陌生人的声音我能内心坚定吗‘？</p>
+<p>但是种子已经发芽，内心的声音已经压抑不住，可能就像《月亮与六便士》里的画家一样，你不可能忽视内心的声音。倾听宇宙的信号，把自己的后背交托给宇宙，这是我对宇宙的回答。</p>
+<p>第一次来到异国他乡，虽然旅途中也有语言不通带来的坎坷，但亲朋好友所叮嘱的种种危险都没有发生。在一个没有人认识你的环境里，你有更多时间直面内心的叩问，这是我想要的生活吗，这是我可以拥有的生活吗？</p>
+<p>是的，我喜欢这种自由，这种不确定性。但如何成为一个数字游民呢？我从播客里寻找答案，直到听到 Nodmad List 网站创始人 Levels 分享他的故事。每个月发布一个软件产品，连续十二个月发布十二个独立开发产品，这是他当时宅在父母的房子里的计划。不到十二个产品发布完，他凭借这个计划的媒体报道和切中数字游民需求的 Nodmad List 而一炮走红。</p>
+<p>Levels 留给我的启发是，观察自己的真实需求，解决自己的真实需求，迅速迭代，产品导向。</p>
+<p>另一期播客中，硅谷投资人纳瓦尔说，“不要抄袭别人，在做你自己这样事情上，没有人比得过你”。</p>
+<p>另一位硅谷投资人、曾经的 Lisp 程序员、也是一名画家的 Paul Gram 在博客里说，“由好奇心驱动，而不要由责任感驱动，追随你的好奇心，而不是做你被认为应当做的。好奇心从来不会说谎”。</p>
+<p>所有的声音落到了同一个词上，回到了 Ren 的那句话，“做你热爱的事情”。12 月在老挝，我决定做一个自己的播客 app。</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/930db82f-dc04-4586-9442-07d83ba22446.jpeg/w=1376,h=5504,fit=scale-down" alt="2023年12月14日的启动"></p>
+<h2 id="三播客奇遇">三、播客奇遇</h2>
+<p>我用 #buildinpublic 来在朋友圈和推特上标记这个 app 的开发过程的动态，历经一个多月，最终在 2024 年 1 月底完成第一版的开发，它最后被命名为“Podventure”，译成中文叫“播客奇遇”。</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/buildinpublic?src=hash&amp;ref_src=twsrc%5Etfw">#buildinpublic</a><br>As a podcast listener for more than 5 years, the idea of ​​making my own podcast app appeared from last month. The reason is simple. Among English podcast apps, I found that there is no one podcast app which completely satisfies me, so I want to make one myself🐣. <a href="https://t.co/y2lzAWB3TC">pic.twitter.com/y2lzAWB3TC</a></p>&mdash; Harold Gao (@HaroldGaoX) <a href="https://twitter.com/HaroldGaoX/status/1735289031003689129?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>我的人生奇遇是从 2020 年收听 Jade 的播客节目《晚风说》开始的。2020 年底到 2021 年年初，我在大理古城度过了一个不乏焦虑却又很有启发的冬天；2023 年底到 2024 年年初，又是一个冬天，从东南亚的旅途回到了大理，在这里完成了这个独立 app 的开发。</p>
+<p>它是一个播客 app，为了满足我对于听英语播客的需求而诞生，也是我把热爱和技能融合的一次尝试。一期播客遇到一个人，一个人提出一个观点，一个观点打开一个世界，从这个意义上讲，这个小小的刚刚诞生的播客 app 关联着一个大大的丰富精彩的播客世界。</p>
+<p>我的故事就讲到这里，希望 <a href="https://www.haroldgao.com/podventure/">Podventure</a> 能帮助你在播客的世界里探索你想要的，继续你的奇遇人生。期待你的故事。</p>
+<p><img src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/a4cd1720-113c-40e8-939d-c85eaf6d4c44.png/w=1376,h=5504,fit=scale-down" alt="Podventure app icon"></p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Harold Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        Jan 27, 2024
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/zh-tw/tags/podcast/">podcast</a>
+          </div>
+      <nav class="post-nav">
+        
+        <a class="next" href="/zh-tw/post/engshare2/">
+            <span class="next-text nav-default">英文推薦2:夕霧花園&#43;幸福觀</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xiangaoole@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/HaroldGaoX" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/haroldgaox/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/xiangaoole" class="iconfont icon-github" title="github"></a>
+  <a href="https://haroldgao.com/zh-tw/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021 - 
+    2024<span class="heart"><i class="iconfont icon-heart"></i></span><span>Harold Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
