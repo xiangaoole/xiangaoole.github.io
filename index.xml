@@ -15,7 +15,10 @@
       <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/post/opml/</guid>
-      <description>&lt;h2 id=&#34;1-what-is-opml-format&#34;&gt;1 What is OPML Format&lt;/h2&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, &lt;strong&gt;I developed my own Podcast Player called &lt;a href=&#34;https://haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt;&lt;/strong&gt;. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;1-what-is-opml-format&#34;&gt;1 What is OPML Format&lt;/h2&gt;
 &lt;p&gt;OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.&lt;/p&gt;
 &lt;p&gt;Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).&lt;/p&gt;
 &lt;h2 id=&#34;2-export-your-apple-podcast-subscription-list-into-other-podcast-apps&#34;&gt;2 Export Your Apple Podcast Subscription List into Other Podcast Apps&lt;/h2&gt;
@@ -67,8 +70,7 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The data format for a podcast is an RSS file. The most basic outline node in a generic OPML file contains a text field for the podcast show name and an xmlUrl field for the RSS file download URL of the podcast show.&lt;/p&gt;
 &lt;p&gt;All data for a podcast are stored in the RSS file, which includes the podcast&amp;rsquo;s introduction, images, categories, etc., and an item list that stores the title of each episode, show notes, images, duration, audio file download URL, etc.&lt;/p&gt;
-&lt;p&gt;Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. &lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; is one such generic podcast app.&lt;/p&gt;
-</description>
+&lt;p&gt;Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. &lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; is one such generic podcast app.&lt;/p&gt;</description>
     </item>
     
     <item>

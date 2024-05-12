@@ -15,9 +15,9 @@
       <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/post/opml/</guid>
-      <description>1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
-Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).
-2 Export Your Apple Podcast Subscription List into Other Podcast Apps Firstly, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, &lt;strong&gt;I developed my own Podcast Player called &lt;a href=&#34;https://haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt;&lt;/strong&gt;. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

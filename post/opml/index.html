@@ -17,9 +17,8 @@
 
 
 <meta name="author"
-  content="Harold Gao" /><meta name="description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&amp;rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
-Podcast apps can read OPML files to import information about the podcasts you&amp;rsquo;re subscribed to (RSS addresses).
-2 Export Your Apple Podcast Subscription List into Other Podcast Apps Firstly, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:" /><meta name="keywords"
+  content="Harold Gao" /><meta name="description" content=" Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, I developed my own Podcast Player called Podventure. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)
+" /><meta name="keywords"
   content="Harold, blog" />
 
 
@@ -44,24 +43,24 @@ Podcast apps can read OPML files to import information about the podcasts you&am
 
 
 <meta property="og:title" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps" />
-<meta property="og:description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
-Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
-2 Export Your Apple Podcast Subscription List into Other Podcast Apps Firstly, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:" />
+<meta property="og:description" content="
+Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, I developed my own Podcast Player called Podventure. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)
+" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://haroldgao.com/post/opml/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2024-01-26T10:53:54+07:00" />
 <meta property="article:modified_time" content="2024-01-26T10:53:54+07:00" />
 <meta itemprop="name" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps">
-<meta itemprop="description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
-Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
-2 Export Your Apple Podcast Subscription List into Other Podcast Apps Firstly, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:"><meta itemprop="datePublished" content="2024-01-26T10:53:54+07:00" />
+<meta itemprop="description" content="
+Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, I developed my own Podcast Player called Podventure. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)
+"><meta itemprop="datePublished" content="2024-01-26T10:53:54+07:00" />
 <meta itemprop="dateModified" content="2024-01-26T10:53:54+07:00" />
-<meta itemprop="wordCount" content="438">
+<meta itemprop="wordCount" content="493">
 <meta itemprop="keywords" content="podcast," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to Import Your Apple Podcast Subscription List into Other Podcast Apps"/>
-<meta name="twitter:description" content="1 What is OPML Format OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.
-Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).
-2 Export Your Apple Podcast Subscription List into Other Podcast Apps Firstly, open the iCloud Link for shortcuts, add it to your Shortcuts, and run this shortcut to save the subscription list to a file:"/>
+<meta name="twitter:description" content="
+Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, I developed my own Podcast Player called Podventure. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)
+"/>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E0JZ6L8R2S"></script>
@@ -238,7 +237,10 @@ if (!doNotTrack) {
 
     
     <div class="post-content">
-      <h2 id="1-what-is-opml-format">1 What is OPML Format</h2>
+      <blockquote>
+<p>Foreword: I am a podcast lover, also an indie hacker. I have used Apple Podcasts, Overcast and Pocket Casts, but never totally content with them. So instead, <strong>I developed my own Podcast Player called <a href="https://haroldgao.com/podventure/">Podventure</a></strong>. (If you are a podcast lover like me, maybe you would also love it, why not give it a try?)</p>
+</blockquote>
+<h2 id="1-what-is-opml-format">1 What is OPML Format</h2>
 <p>OPML files are a universal format for saving podcast subscription lists used by podcast apps. It&rsquo;s a text file that can be opened with any text editor, containing a list of URLs for podcast data retrieval.</p>
 <p>Podcast apps can read OPML files to import information about the podcasts you&rsquo;re subscribed to (RSS addresses).</p>
 <h2 id="2-export-your-apple-podcast-subscription-list-into-other-podcast-apps">2 Export Your Apple Podcast Subscription List into Other Podcast Apps</h2>
@@ -291,7 +293,6 @@ if (!doNotTrack) {
 </div><p>The data format for a podcast is an RSS file. The most basic outline node in a generic OPML file contains a text field for the podcast show name and an xmlUrl field for the RSS file download URL of the podcast show.</p>
 <p>All data for a podcast are stored in the RSS file, which includes the podcast&rsquo;s introduction, images, categories, etc., and an item list that stores the title of each episode, show notes, images, duration, audio file download URL, etc.</p>
 <p>Generic podcast apps can subscribe to a podcast show list or display all information for a single podcast show by parsing these generic OPML or RSS files. <a href="https://www.haroldgao.com/podventure/">Podventure</a> is one such generic podcast app.</p>
-
     </div>
 
     <div class="post-copyright">
