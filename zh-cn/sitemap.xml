@@ -3,7 +3,49 @@
   
   <url>
     <loc>https://haroldgao.com/zh-cn/categories/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/categories/spanish/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/spanish3/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/spanish2/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-cn/post/spanish1/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://haroldgao.com/zh-cn/post/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://haroldgao.com/zh-cn/tags/</loc>
     <lastmod>2024-01-27T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -38,13 +73,6 @@
   
   <url>
     <loc>https://haroldgao.com/zh-cn/post/podventure/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-cn/</loc>
     <lastmod>2024-01-27T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
