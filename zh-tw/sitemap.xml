@@ -3,7 +3,84 @@
   
   <url>
     <loc>https://haroldgao.com/zh-tw/categories/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/tags/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/tags/travel/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/categories/travel/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/gapyear2024/</loc>
+    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/categories/spanish/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/spanish4/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/spanish3/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/spanish2/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/post/spanish1/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,28 +100,7 @@
   </url>
   
   <url>
-    <loc>https://haroldgao.com/zh-tw/post/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-tw/tags/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://haroldgao.com/zh-tw/post/podventure/</loc>
-    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-tw/</loc>
     <lastmod>2024-01-27T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -116,13 +172,6 @@
   <url>
     <loc>https://haroldgao.com/zh-tw/post/gtd/</loc>
     <lastmod>2023-10-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-tw/categories/travel/</loc>
-    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
