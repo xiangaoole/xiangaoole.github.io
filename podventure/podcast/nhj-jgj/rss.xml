@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
   <channel>
     <title>南懷瑾先生, 金剛經說什麼</title>
-    <link>https://www.buda.idv.tw/db.asp?node=548&amp;keyword=&amp;PageNo_form=&amp;SortBy_form=LocalFileName</link>
-    <description>金剛經說什麼 - 佛學多媒體資料庫 https://www.buda.idv.tw/db.asp?node=548&amp;keyword=&amp;PageNo_form=&amp;SortBy_form=LocalFileName</description>
+    <link>https://www.buda.idv.tw/db.asp?node=548</link>
+    <description>金剛經說什麼 - 佛學多媒體資料庫 https://www.buda.idv.tw/db.asp?node=548</description>
     <language>zh-tw</language>
     <author>南懷瑾</author>
     <category>Religion &amp; Spirituality</category>
     <image>
       <url>https://s3proxy.cdn-zlib.se/covers400/collections/userbooks/37d2b65f918058d7a19f71c7edd49db709dd10d23e72d0ec741bbb7b75e7dde0.jpg</url>
       <title>南懷瑾先生, 金剛經說什麼</title>
-      <link>https://www.buda.idv.tw/db.asp?node=548&amp;keyword=&amp;PageNo_form=&amp;SortBy_form=LocalFileName</link>
+      <link>https://www.buda.idv.tw/db.asp?node=548</link>
     </image>
 
     <!-- Episodes -->
@@ -19,146 +19,167 @@
       <description>Episode 01</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ01.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ01.mp3</guid>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:27</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 02</title>
       <description>Episode 02</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ02.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ02.mp3</guid>
-      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 02 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 03</title>
       <description>Episode 03</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ03.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ03.mp3</guid>
-      <pubDate>Sat, 03 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 03 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:07:50</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 04</title>
       <description>Episode 04</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ04.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ04.mp3</guid>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 05</title>
       <description>Episode 05</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ05.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ05.mp3</guid>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:31</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 06</title>
       <description>Episode 06</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ06.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ06.mp3</guid>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 07</title>
       <description>Episode 07</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ07.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ07.mp3</guid>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 08</title>
       <description>Episode 08</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ08.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ08.mp3</guid>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 09</title>
       <description>Episode 09</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ09.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ09.mp3</guid>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>00:33:27</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 10</title>
       <description>Episode 10</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ10.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ10.mp3</guid>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 11</title>
       <description>Episode 11</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ11.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ11.mp3</guid>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 12</title>
       <description>Episode 12</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ12.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ12.mp3</guid>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:08:12</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 13</title>
       <description>Episode 13</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ13.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ13.mp3</guid>
-      <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 13 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 14</title>
       <description>Episode 14</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ14.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ14.mp3</guid>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:53</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 15</title>
       <description>Episode 15</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ15.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ15.mp3</guid>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 15 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:53</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 16</title>
       <description>Episode 16</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ16.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ16.mp3</guid>
-      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 16 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:06:25</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 17</title>
       <description>Episode 17</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ17.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ17.mp3</guid>
-      <pubDate>Sat, 17 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 17 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 18</title>
       <description>Episode 18</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ18.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ18.mp3</guid>
-      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 19</title>
       <description>Episode 19</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ19.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ19.mp3</guid>
-      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 20</title>
       <description>Episode 20</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ20.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ20.mp3</guid>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>01:11:52</itunes:duration>
     </item>
     <item>
       <title>南懷瑾-金剛經 21</title>
       <description>Episode 21</description>
       <enclosure url="https://download.buda.idv.tw/lecture/NHJ_JGJ21.mp3" type="audio/mpeg"/>
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ21.mp3</guid>
-      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Dec 2005 00:00:00 +0000</pubDate>
+      <itunes:duration>00:16:34</itunes:duration>
     </item>  </channel>
 </rss>
