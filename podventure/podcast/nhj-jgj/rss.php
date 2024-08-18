@@ -5,7 +5,8 @@ header('Content-Type: application/rss+xml; charset=UTF-8');
 // Begin the RSS XML structure
 echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
-<rss version="2.0">
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  version="2.0">
   <channel>
     <title>南懷瑾先生, 金剛經說什麼</title>
     <link>https://www.buda.idv.tw/db.asp?node=548</link>

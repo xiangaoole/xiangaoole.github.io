@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>南懷瑾先生, 金剛經說什麼</title>
     <link>https://www.buda.idv.tw/db.asp?node=548</link>
@@ -13,7 +14,7 @@
     </image>
 
     <!-- Episodes -->
-    
+
     <item>
       <title>南懷瑾-金剛經 01</title>
       <description>Episode 01</description>
@@ -181,5 +182,6 @@
       <guid>https://download.buda.idv.tw/lecture/NHJ_JGJ21.mp3</guid>
       <pubDate>Wed, 21 Dec 2005 00:00:00 +0000</pubDate>
       <itunes:duration>00:16:34</itunes:duration>
-    </item>  </channel>
+    </item>
+  </channel>
 </rss>
