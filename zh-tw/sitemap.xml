@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://haroldgao.com/zh-tw/categories/</loc>
-    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
+    <loc>https://haroldgao.com/zh-tw/post/</loc>
+    <lastmod>2024-11-16T09:58:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://haroldgao.com/zh-tw/post/</loc>
+    <loc>https://haroldgao.com/zh-tw/post/english2024/</loc>
+    <lastmod>2024-11-16T09:58:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/</loc>
+    <lastmod>2024-11-16T09:58:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/zh-tw/categories/</loc>
     <lastmod>2024-08-10T15:35:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +45,6 @@
   
   <url>
     <loc>https://haroldgao.com/zh-tw/categories/travel/</loc>
-    <lastmod>2024-08-10T15:35:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/zh-tw/</loc>
     <lastmod>2024-08-10T15:35:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
