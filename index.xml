@@ -26,16 +26,22 @@
 &lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&#34;&gt;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(This shortcut link is created and maintained by Harold, and the latest version can be obtained from &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt;)&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Export Apple Podcast Subscription List to OPML&#34; &gt;&lt;/figure&gt;&lt;p&gt;Then, choose your target podcast app and add the OPML file:&lt;/p&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Export Apple Podcast Subscription List to OPML&#34; &gt;&lt;/figure&gt;&lt;p&gt;Then, choose your target podcast app and add the OPML file:&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/605363c6-17ef-4019-a7ad-b34f1a0b6cd0.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Import OPML into Podventure Podcast Player&#34; &gt;&lt;/figure&gt;&lt;h2 id=&#34;3-import-opml-into-your-apple-podcast&#34;&gt;3 Import OPML into your Apple Podcast&lt;/h2&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/605363c6-17ef-4019-a7ad-b34f1a0b6cd0.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Import OPML into Podventure Podcast Player&#34; &gt;&lt;/figure&gt;&lt;h2 id=&#34;3-import-opml-into-your-apple-podcast&#34;&gt;3 Import OPML into your Apple Podcast&lt;/h2&gt;
 &lt;p&gt;Firstly, export an OPML file from your third-part Podcasts app like OverCast;&lt;/p&gt;
 &lt;p&gt;Secondly, share the file and click Copy to get the text content of it to your clipboard;&lt;/p&gt;
 &lt;p&gt;Thirdly, start the shortcut command, which will read your clipboard and add all the podcasts to your Apple Podcasts app:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/ebc8a7c9b31d4cada78b6600933e2e48&#34;&gt;https://www.icloud.com/shortcuts/ebc8a7c9b31d4cada78b6600933e2e48&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(This shortcut link is created and maintained by Harold, and the latest version can be obtained from &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt;)&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;ImportToPodcasts.gif&#34; alt=&#34;Import OPML into Apple Podcasts&#34; &gt;&lt;/figure&gt;&lt;h2 id=&#34;ps-opml-format-specification&#34;&gt;P.S. OPML Format Specification&lt;/h2&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://haroldgao.com/post/opml/ImportToPodcasts.gif&#34; alt=&#34;Import OPML into Apple Podcasts&#34; &gt;&lt;/figure&gt;&lt;h2 id=&#34;ps-opml-format-specification&#34;&gt;P.S. OPML Format Specification&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://opml.org/spec2.opml&#34;&gt;OPML files&lt;/a&gt; are a simple XML format used for list management, widely used for RSS feed subscriptions. It can be understood as a multi-branched tree, where each node is called an outline. Each node can either be the end of a branch or can split into other branches.&lt;/p&gt;
 &lt;p&gt;Because podcast lists only need to provide a list node, they usually have only one layer of outline (used by Overcast) or two layers (used by Pocket Podcast).&lt;/p&gt;
 &lt;p&gt;The single-layer structure used by Overcast looks like this:&lt;/p&gt;
@@ -90,7 +96,9 @@
 &lt;p&gt;This podcast from Malaysia interviews the author and talks about his second novel, &amp;ldquo;The Garden of Evening Mist&amp;rdquo;, which was adapted into a movie. This novel tells the story of how during World War II, the Japanese army established a concentration camp in the rainforest whose location was unknown in Malaysia. After World War II, the only survivor of the concentration camp, in order to fulfill her sister’s last wish—to build a Japanese-style garden, commissioned a design for the emperor. The Japanese gardener of the garden became his apprentice. It was a period of civil strife in Malaysia and the British had not yet ended their colonial rule. Forty years later, before the memory disappeared, the protagonist returned to the garden and began to recall the past stories.&lt;/p&gt;
 &lt;p&gt;The story is interspersed in four languages: English, Cantonese, Malay, and Japanese. The protagonist Yunlin is a Bay Area Chinese who cannot speak Chinese ( &lt;a href=&#34;https://en.wikipedia.org/wiki/Peranakans&#34; title=&#34;Strait Chinese&#34;&gt;Strait Chinese&lt;/a&gt; refers to the former British Bay Area colony established in 1826-including Strait Chinese). (Melaka, Singapore, Nanyang Chinese), introduced the historical background and social life of Malaysia at that time through her perspective.&lt;/p&gt;
 &lt;p&gt;The English accent of the Malaysian and Singaporean podcasts is very standard, close to the British accent. Their chat content contains many fragments of Chinese lifestyle, so it sounds very friendly.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/f38b1559-c8a3-43f5-a4c3-5820849e1a67.jpeg/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Sacred Heart of Jesus Church in Tai Pudu Village, Sanjiao District, Penang&#34; &gt; &lt;em&gt;(Picture note: &lt;a href=&#34;https://www.penang-traveltips.com/catholic-church-of-the-sacred-heart-of-jesus.htm&#34; title=&#34;Sacred Heart of Jesus Church in Dapudu Village&#34;&gt;The Sacred Heart of Jesus Church in Tai Pudu Village, Sanjiao&lt;/a&gt; District, Penang was built in 1882. During the civil strife after the Japanese occupation, the British colonial government established fenced villages and restricted the contact between Chinese and Communist rebels. The villagers came and went, and the Church of the Sacred Heart of Christ was abandoned and destroyed in disrepair)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+  loading=&#34;lazy&#34;
+  src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/f38b1559-c8a3-43f5-a4c3-5820849e1a67.jpeg/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Sacred Heart of Jesus Church in Tai Pudu Village, Sanjiao District, Penang&#34; &gt; &lt;em&gt;(Picture note: &lt;a href=&#34;https://www.penang-traveltips.com/catholic-church-of-the-sacred-heart-of-jesus.htm&#34; title=&#34;Sacred Heart of Jesus Church in Dapudu Village&#34;&gt;The Sacred Heart of Jesus Church in Tai Pudu Village, Sanjiao&lt;/a&gt; District, Penang was built in 1882. During the civil strife after the Japanese occupation, the British colonial government established fenced villages and restricted the contact between Chinese and Communist rebels. The villagers came and went, and the Church of the Sacred Heart of Christ was abandoned and destroyed in disrepair)&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2-text-navarres-view-of-happiness&#34;&gt;2. Text: Navarre’s View of Happiness&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://nav.al/happiness&#34; title=&#34;Happiness&#34;&gt;Happiness&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The most important themes in life are health, wealth, and happiness. &lt;a href=&#34;https://mp.weixin.qq.com/s/VZnKF4tiSzmm-PLxQ8yH7g&#34;&gt;The last issue&lt;/a&gt; recommended Navarre’s view on wealth, and this issue recommends his view on happiness and wealth. This is a 40-minute podcast transcript. Here are some snippets:&lt;/p&gt;
@@ -145,7 +153,9 @@
 &lt;li&gt;The law of the universe is that you can achieve anything you want to do, but you cannot achieve everything you want to do. So you need to narrow the scope of what you want to do to a few specific things, and often remind yourself what you can do for these important things today.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/ef1f8f0e-37ee-4410-b45c-4c2dfc770668.jpeg/w=1376,h=5504,fit=scale-down&#34; alt=&#34;City Pillar in the center of Chiang Mai old city&#34; &gt;&lt;/figure&gt;</description>
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/ef1f8f0e-37ee-4410-b45c-4c2dfc770668.jpeg/w=1376,h=5504,fit=scale-down&#34; alt=&#34;City Pillar in the center of Chiang Mai old city&#34; &gt;&lt;/figure&gt;</description>
     </item>
     
     <item>
@@ -164,12 +174,16 @@
 &lt;p&gt;During the Lantern Festival, I stayed at a temple in Shanwei, Guangdong for two nights. Before leaving on the last day, everyone sat in a circle and everyone told their own story. I saw the views of life held by people from different professions. trauma, confusion and hope; in February, I joined &lt;a href=&#34;https://mp.weixin.qq.com/s/uQhEfNQGlvwrh3_w8cBgdg&#34;&gt;the &amp;ldquo;Digital Nomad&amp;rdquo; writing class&lt;/a&gt; of the Sandwich Writing Community, read Lin An&amp;rsquo;s &amp;ldquo;Only Working, Not Going to Work&amp;rdquo; and Tim Ferris&amp;rsquo;s &amp;ldquo;4 Hours of Work Week&amp;rdquo;, and wrote about my understanding of digital every day The thoughts of homeless people; in March, I signed up for &lt;a href=&#34;https://mp.weixin.qq.com/s/7nAe2RlXtIly_Nu_IzQCPw&#34;&gt;the fourth character interview course&lt;/a&gt; by Yilan, the host of &amp;ldquo;Dali Haozai&amp;rdquo;, to learn more skills of deep connection with people, and completed my first character interview; in April, I read Fu The true Southeast Asian travel diary &amp;ldquo;The Boat of Disconnection&amp;rdquo; and the novel &amp;ldquo;Zebra&amp;rdquo; collect travel notes in Southeast Asia; in May, I sent a resignation email after May Day, and &lt;a href=&#34;https://mp.weixin.qq.com/s/ltRAgu_or8HpeOSZF6GtRw&#34;&gt;participated in the offline sharing of Lin An, the founder of the Free Living Room, in Shenzhen&lt;/a&gt; . I went to Guangzhou for a Philippine visa interview and participated in two offline activities of 706 Guangzhou. I received a small request &lt;a href=&#34;https://mp.weixin.qq.com/s/0z--L7MFYaJDKIg_JTg5sA&#34;&gt;to use code to process art project data&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;When I shouted my desire clearly and strongly in my mind, all the relevant information came to me like the echo of the universe. All I needed was to grab them, act decisively, and explore how to achieve this possibility. .&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/b0aea295-afea-4a7f-abba-6ec6ea0ab57e.jpeg/public&#34; alt=&#34;Shaxi Ancient Town&#34; &gt;&lt;/figure&gt;&lt;p&gt;I decided to quit my job and start a new adventure. Since there are few opportunities for remote work in China, let’s look abroad. Since you can&amp;rsquo;t always take action at home, put yourself in a foreign environment. So I decided to start an overseas gap year trip. For more than a year, I didn’t think about finding a job at all. I just focused on exploring the lifestyle of digital nomads and collecting relevant information while traveling abroad.&lt;/p&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/b0aea295-afea-4a7f-abba-6ec6ea0ab57e.jpeg/public&#34; alt=&#34;Shaxi Ancient Town&#34; &gt;&lt;/figure&gt;&lt;p&gt;I decided to quit my job and start a new adventure. Since there are few opportunities for remote work in China, let’s look abroad. Since you can&amp;rsquo;t always take action at home, put yourself in a foreign environment. So I decided to start an overseas gap year trip. For more than a year, I didn’t think about finding a job at all. I just focused on exploring the lifestyle of digital nomads and collecting relevant information while traveling abroad.&lt;/p&gt;
 &lt;h2 id=&#34;2-during-the-trip&#34;&gt;2. &lt;strong&gt;During the trip&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;In June, I resigned from my second company after graduation. In July, I arrived in Boracay Island, Philippines to learn English. In August, I walked in the rice fields of Bali, Indonesia. In September, I tasted Fujian food at the night market in Penang, Malaysia, 10 I came to Thailand 🇹🇭 in Chiang Mai to experience the digital nomad atmosphere here. In November, I went to Bangkok to participate in a 10-day Vipassana meditation retreat. Then I went to Laos 🇱🇦 Luang Prabang, and returned to China 🇨🇳 to apply for a US visa in mid-December.&lt;/p&gt;
 &lt;p&gt;That’s the plan for the first half of the interval. The cities chosen in the plan, except Boracay for learning English, are all selected from &lt;a href=&#34;https://nomadlist.com/@haroldgao&#34;&gt;the Nomad List&lt;/a&gt; as the most popular (and inexpensive) cities for digital nomads in Southeast Asian countries.&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/9f616a78-9937-4b9d-ad74-f049889359b5.png/public&#34; alt=&#34;Nomad List&#34; &gt;&lt;/figure&gt;&lt;p&gt;I am not a person who particularly likes to travel. I am not very keen on historical sites and internet celebrity attractions. In comparison, I am more interested in people. That trip to Dali allowed me to experience another way of traveling. I loved the possibility of spending more than a week immersing myself in an unfamiliar environment and building deep connections with strangers. Everyone is like a book, I pass by them, read them, talk to them, we see each other.&lt;/p&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/9f616a78-9937-4b9d-ad74-f049889359b5.png/public&#34; alt=&#34;Nomad List&#34; &gt;&lt;/figure&gt;&lt;p&gt;I am not a person who particularly likes to travel. I am not very keen on historical sites and internet celebrity attractions. In comparison, I am more interested in people. That trip to Dali allowed me to experience another way of traveling. I loved the possibility of spending more than a week immersing myself in an unfamiliar environment and building deep connections with strangers. Everyone is like a book, I pass by them, read them, talk to them, we see each other.&lt;/p&gt;
 &lt;p&gt;So I will stay in each city for a month, hoping to establish deeper connections with local people.&lt;/p&gt;
 &lt;p&gt;Travel is not expensive. Many people have the impression that traveling is expensive because most of the time they travel during the holidays, when air tickets and hotel prices double. The holidays are short, so most of the money is spent on transportation and accommodation. Once the travel time is extended to more than a month, and you choose to stay in a homestay or youth hostel that is friendly to the people, and only have one long-distance transportation per month, then the monthly expenses will be the same as the monthly living expenses in Shenzhen (for these 4 months, my Expense accounting confirms this).&lt;/p&gt;
 &lt;p&gt;I will record every expense, such as buying long-term medical insurance from Alipay for 22.13 yuan per month, or buying a banana at 711 for 1 yuan, and choose how much food to eat every day according to the budget to prevent myself from relying solely on my feelings. Too much money was spent.&lt;/p&gt;
@@ -316,7 +330,9 @@
 &lt;li&gt;&lt;strong&gt;Engage&lt;/strong&gt;. Pick one to-do from your &lt;strong&gt;Next&lt;/strong&gt; to-do list and do it right now.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;https://assets.website-files.com/608aecd1e643ecaa961a7a67/634cd40129d4e1311a6c292a_GTD%2001.png&#34; alt=&#34;The procedure for GTD&#34; &gt;&lt;/figure&gt;&lt;p&gt;After your organization, the stuff can be divided into these places:&lt;/p&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://assets.website-files.com/608aecd1e643ecaa961a7a67/634cd40129d4e1311a6c292a_GTD%2001.png&#34; alt=&#34;The procedure for GTD&#34; &gt;&lt;/figure&gt;&lt;p&gt;After your organization, the stuff can be divided into these places:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Project&lt;/strong&gt; list: Desired results which require more than one action step. And you can organize your project support material by theme or topic inside the project.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Next&lt;/strong&gt; Actions list: Actions needs to be done &lt;em&gt;today&lt;/em&gt; or &lt;em&gt;anytime&lt;/em&gt;.&lt;/li&gt;
@@ -327,7 +343,9 @@
 &lt;/ul&gt;
 &lt;p&gt;To combine this method with Things 3 app:&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;gtd-things3.png&#34; alt=&#34;GTD with Things 3 app&#34; &gt;&lt;/figure&gt;&lt;p&gt;And when you get up every morning, what you should do is to check your Today list and choose things needs to be done today.&lt;/p&gt;</description>
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://haroldgao.com/post/gtd/gtd-things3_hue53576dc2ee1e513284096fd2cc987e4_387356_720x0_resize_q80_box_3.png&#34; alt=&#34;GTD with Things 3 app&#34; &gt;&lt;/figure&gt;&lt;p&gt;And when you get up every morning, what you should do is to check your Today list and choose things needs to be done today.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -515,7 +533,9 @@ Then I took a flight to Bali, Indonesia. I lived in Ubud, a beautiful village su
 &lt;p&gt;In a blink of an eye, Lin An has entered her 6th year of freelancing. Through exploration, transformation, and light entrepreneurship, she is now working full-time as a freelance community &amp;ldquo;Freedom Living Room&amp;rdquo; and has her own entrepreneurial team.&lt;/p&gt;
 &lt;p&gt;The book &amp;ldquo;Only Working, Not Going to Work&amp;rdquo; was published in September 2019. It contains the stories of 20 people who don&amp;rsquo;t work in &amp;ldquo;100 People Who Don&amp;rsquo;t Work&amp;rdquo;, and of course Lin An&amp;rsquo;s own story. In this article, I will share the stories of several of my fellow digital nomads.&lt;/p&gt;
 &lt;figure style=&#34;margin: auto;&#34;&gt;
-  &lt;img src=&#34;640.png&#34; alt=&#34;Digital Nomads and Lin An in “Only Work, Not Go to Work”&#34; &gt;&lt;/figure&gt;&lt;h3 id=&#34;1-li-shengbohttpsweibocomu7432918109&#34;&gt;&lt;strong&gt;1 &lt;a href=&#34;https://weibo.com/u/7432918109&#34;&gt;Li Shengbo&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://haroldgao.com/post/digitalnomad/640_hub08e93f313c0c7cea1d816c55c2cd9c0_357703_720x0_resize_q80_box_3.png&#34; alt=&#34;Digital Nomads and Lin An in “Only Work, Not Go to Work”&#34; &gt;&lt;/figure&gt;&lt;h3 id=&#34;1-li-shengbohttpsweibocomu7432918109&#34;&gt;&lt;strong&gt;1 &lt;a href=&#34;https://weibo.com/u/7432918109&#34;&gt;Li Shengbo&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Original occupation&lt;/strong&gt; : Worked for two years, business manager of an entertainment marketing company&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Exploration&lt;/strong&gt; : I took a year off from my junior year and traveled around China by car. I published a documentary and &lt;a href=&#34;https://book.douban.com/subject/24296163/&#34;&gt;a book&lt;/a&gt; based on the material on the road.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Progress in the book&lt;/strong&gt; : I was attracted by &amp;ldquo;Little Forest&amp;rdquo; and traveled to Tsuwano, Japan, and started a distance tour in the Japanese countryside; founder of a certain distance travel cultural brand&lt;/p&gt;
