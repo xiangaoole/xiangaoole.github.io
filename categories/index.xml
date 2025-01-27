@@ -8,7 +8,16 @@
     <language>en-US</language>
     <managingEditor>xiangaoole@gmail.com (Harold Gao)</managingEditor>
     <webMaster>xiangaoole@gmail.com (Harold Gao)</webMaster>
-    <lastBuildDate>Fri, 26 Jan 2024 10:53:54 +0700</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2025 09:00:00 +0800</lastBuildDate><atom:link href="https://haroldgao.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>travel</title>
+      <link>https://haroldgao.com/categories/travel/</link>
+      <pubDate>Mon, 27 Jan 2025 09:00:00 +0800</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>podcast</title>
       <link>https://haroldgao.com/categories/podcast/</link>
@@ -33,15 +42,6 @@
       <pubDate>Mon, 02 Oct 2023 08:51:51 +0700</pubDate>
       <author>xiangaoole@gmail.com (Harold Gao)</author>
       <guid>https://haroldgao.com/categories/nomadism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://haroldgao.com/categories/travel/</link>
-      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      <author>xiangaoole@gmail.com (Harold Gao)</author>
-      <guid>https://haroldgao.com/categories/travel/</guid>
       <description></description>
     </item>
     

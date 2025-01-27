@@ -3,14 +3,49 @@
   
   <url>
     <loc>https://haroldgao.com/categories/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/remote/</loc>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/</loc>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/tags/</loc>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/tags/travel/</loc>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/categories/travel/</loc>
+    <lastmod>2025-01-27T09:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,20 +66,6 @@
   
   <url>
     <loc>https://haroldgao.com/categories/podcast/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/post/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/tags/</loc>
     <lastmod>2024-01-26T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -122,13 +143,6 @@
   
   <url>
     <loc>https://haroldgao.com/post/bali/</loc>
-    <lastmod>2023-09-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://haroldgao.com/categories/travel/</loc>
     <lastmod>2023-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
