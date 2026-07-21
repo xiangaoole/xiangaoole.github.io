@@ -553,6 +553,71 @@
     </item>
     
     <item>
+      <title>如何將 Apple Podcast 的訂閱列表匯入其他播客 app</title>
+      <link>https://haroldgao.com/zh-tw/post/opml/</link>
+      <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-tw/post/opml/</guid>
+      <description>&lt;h2 id=&#34;一什麼是-opml-格式&#34;&gt;一、什麼是 OPML 格式&lt;/h2&gt;
+&lt;p&gt;OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。&lt;/p&gt;
+&lt;p&gt;播客 app 讀取 OPML 檔案後，就能匯入你訂閱的播客節目資訊（RSS 位址）。&lt;/p&gt;
+&lt;h2 id=&#34;二如何將小宇宙-app-的訂閱列表匯入其他播客-app&#34;&gt;二、如何將小宇宙 app 的訂閱列表匯入其他播客 app&lt;/h2&gt;
+&lt;p&gt;首先，在小宇宙 app 的設定頁面將訂閱列表匯出為檔案：&lt;/p&gt;
+&lt;figure style=&#34;margin: auto;&#34;&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/33db8c0b-8b98-4eb4-aea9-52de351644d6.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;小宇宙播客 app 匯出訂閱列表 OPML&#34; &gt;&lt;/figure&gt;&lt;p&gt;接著，選擇你的目標播客 app，加入 OPML 檔案：&lt;/p&gt;
+&lt;figure style=&#34;margin: auto;&#34;&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Podventure 播客 app 匯入訂閱列表 OPML&#34; &gt;&lt;/figure&gt;&lt;h2 id=&#34;三如何將-apple-podcast-的訂閱列表匯入其他播客-app&#34;&gt;三、如何將 Apple Podcast 的訂閱列表匯入其他播客 app&lt;/h2&gt;
+&lt;p&gt;首先，開啟 Shortcuts 的 iCloud Link，將它加入你的 Shortcuts，執行這個捷徑，並將訂閱列表儲存為檔案：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&#34;&gt;https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（此 Shortcuts 連結由 Harold 建立及維護；最新版本可從 &lt;a href=&#34;https://haroldgao.com/post/opml&#34;&gt;https://haroldgao.com/post/opml&lt;/a&gt; 取得。）&lt;/p&gt;
+&lt;figure style=&#34;margin: auto;&#34;&gt;
+  &lt;img 
+    loading=&#34;lazy&#34;
+    src=&#34;https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down&#34; alt=&#34;Apple Podcast 的訂閱列表匯出&#34; &gt;&lt;/figure&gt;&lt;p&gt;接著，如同上一步，將檔案匯入你的目標播客 app 即可。&lt;/p&gt;
+&lt;h2 id=&#34;ps-opml-格式規範&#34;&gt;P.S. OPML 格式規範&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://opml.org/spec2.opml&#34;&gt;OPML 檔案&lt;/a&gt;是一種用於列表管理的簡單 XML 格式檔案，廣泛運用於 RSS 列表訂閱。你可以把它理解為一棵多叉樹，每個節點稱為 outline；每個節點既可以是枝幹的末端，也可以再分出其他枝幹。&lt;/p&gt;
+&lt;p&gt;由於播客列表只需要提供一個列表節點，因此通常只有一層 outline（Overcast 使用），或兩層（小宇宙使用）。&lt;/p&gt;
+&lt;p&gt;Overcast 的一層結構如下：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客1的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客2的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客3的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;小宇宙的兩層結構如下，多了一個根節點 outline：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客1的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客2的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;lt;outline&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;播客3的資料&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/outline&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;播客的資料格式為 RSS 檔案。在通用 OPML 檔案最基本的 outline 節點中，會有一個 text 欄位儲存播客節目名稱，以及一個 xmlUrl 欄位儲存播客節目的 RSS 檔案下載位址。&lt;/p&gt;
+&lt;p&gt;一個播客的所有資料都儲存在 RSS 檔案中；該檔案包含節目介紹、圖片、分類等資訊，並有一份 item 列表儲存每一集的標題、show notes、圖片、時長、音訊檔下載位址等資訊。&lt;/p&gt;
+&lt;p&gt;泛用型播客 app 透過解析這類通用的 OPML 或 RSS 檔案，就能訂閱播客節目列表，或顯示單一播客節目的所有資訊。&lt;a href=&#34;https://www.haroldgao.com/podventure/&#34;&gt;Podventure&lt;/a&gt; 就是這樣一款泛用型播客 app。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>英文推薦2:夕霧花園&#43;幸福觀</title>
       <link>https://haroldgao.com/zh-tw/post/engshare2/</link>
       <pubDate>Tue, 05 Dec 2023 08:26:03 +0700</pubDate>

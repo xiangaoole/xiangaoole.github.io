@@ -18,5 +18,14 @@
       <description>&lt;p&gt;Podventure 是 Harold 独立开发的泛用型播客 app，目前正在公测中。以下为这个 app 背后的故事。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>如何將 Apple Podcast 的訂閱列表匯入其他播客 app</title>
+      <link>https://haroldgao.com/zh-tw/post/opml/</link>
+      <pubDate>Fri, 26 Jan 2024 10:53:54 +0700</pubDate>
+      <author>xiangaoole@gmail.com (Harold Gao)</author>
+      <guid>https://haroldgao.com/zh-tw/post/opml/</guid>
+      <description>一、什麼是 OPML 格式 OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。 播客 app 讀取</description>
+    </item>
+    
   </channel>
 </rss>

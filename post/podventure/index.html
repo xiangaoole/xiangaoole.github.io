@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>When a Podcast Lover Decided to Build His Own Podcast App - Harold&#39;s Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author"
+  content="Harold Gao" /><meta name="description" content="Podventure is a general-purpose podcast app independently developed by Harold and is currently in public beta. This is the story behind the app.
+" /><meta name="keywords"
+  content="Harold, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.118.2 with theme even" />
+
+
+<link rel="canonical" href="https://haroldgao.com/post/podventure/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+
+<link href="/sass/main.min.61a4559171d2b927ae86e7abce615dc2e5cc2c903a4f05f51d03b6e22dee0856.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="When a Podcast Lover Decided to Build His Own Podcast App" />
+<meta property="og:description" content="Podventure is a general-purpose podcast app independently developed by Harold and is currently in public beta. This is the story behind the app." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://haroldgao.com/post/podventure/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-01-27T10:53:54+07:00" />
+<meta property="article:modified_time" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="name" content="When a Podcast Lover Decided to Build His Own Podcast App">
+<meta itemprop="description" content="Podventure is a general-purpose podcast app independently developed by Harold and is currently in public beta. This is the story behind the app."><meta itemprop="datePublished" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="dateModified" content="2024-01-27T10:53:54+07:00" />
+<meta itemprop="wordCount" content="1849">
+<meta itemprop="keywords" content="podcast," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="When a Podcast Lover Decided to Build His Own Podcast App"/>
+<meta name="twitter:description" content="Podventure is a general-purpose podcast app independently developed by Harold and is currently in public beta. This is the story behind the app."/>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0JZ6L8R2S"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-E0JZ6L8R2S', { 'anonymize_ip': true });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Harold&#39;s Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+
+<div class="language-selector">
+  
+  <select class="language-select" onchange="location = this.value;"><option value="/post/podventure/"  selected>English</option><option value="/zh-cn/post/podventure/" >简体中文</option><option value="/zh-tw/post/podventure/" >繁體中文</option></select>
+</div>
+
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/resume/">
+        <li class="mobile-menu-item">Resume</li>
+      </a>
+  </ul>
+
+  
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Harold&#39;s Blog</a>
+</div>
+
+
+
+<div class="language-selector">
+  
+  <select class="language-select" onchange="location = this.value;"><option value="/post/podventure/"  selected>English</option><option value="/zh-cn/post/podventure/" >简体中文</option><option value="/zh-tw/post/podventure/" >繁體中文</option></select>
+</div>
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/resume/">Resume</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">When a Podcast Lover Decided to Build His Own Podcast App</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> Jan 27, 2024 </span>
+        <div class="post-category">
+            <a href="/categories/podcast/"> podcast </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p>Podventure is a general-purpose podcast app independently developed by Harold and is currently in public beta. This is the story behind the app.</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/a4cd1720-113c-40e8-939d-c85eaf6d4c44.png/w=1376,h=5504,fit=scale-down" alt="Podventure app icon" ></figure><h2 id="i-everyone-has-a-story-from-listening-to-podcasts-to-building-a-podcast-app">I. Everyone Has a Story: From Listening to Podcasts to Building a Podcast App</h2>
+<p>At the beginning of 2020, I was still a programmer in Shenzhen. While running by the sea on weekend evenings, I listened intensively to Jade&rsquo;s podcast <em>Evening Breeze</em> on the Xiaoyuzhou app and developed a longing for community life in Dali. That July, overwhelmed by the 996 work schedule and unable to find meaning in life, I quit my job at 25 without telling my parents, taking a year off. At the end of that year, I spent two months <a href="https://mp.weixin.qq.com/s/wYty2TqtHW8zhdkIPtL1sQ">living in Dali</a>.</p>
+<p>I returned to work in June 2021. After learning about Meng Yan and Yetanqian through the podcast <em>Zhixing Tavern</em>, I began making regular investments in mainland Chinese stock funds, keeping more detailed accounts, buying insurance, and learning about personal finance. My grand plan then was to work until 35, save enough for low-cost financial freedom as a single person, never have to work this crappy job again, and live a FIRE life—financial independence, retire early.</p>
+<p>Before the Qingming Festival in 2022, after listening to Airbnb&rsquo;s podcast <em>Airbeds and Breakfast</em>, I changed my Yangshuo itinerary, booked three additional nights, and stayed in the old house of Betty, an honoree of the &ldquo;Art of Hosting&rdquo; award. It became an <a href="https://mp.weixin.qq.com/s/Wo8IsHneaDvK_pKF9CMsmw">unforgettable experience</a>.</p>
+<p>At the beginning of 2023, a seed planted in Dali two years before began to sprout. My yearning for the digital nomad life, doubts about my FIRE plan, and respect for how I felt in the present drove me to follow my inner voice. During that time, I listened to many podcasts about digital nomads: <em>Life Against the Current</em> from Free Living Salon; <em>Stirring Things Up</em> by yoga-brand founder Alison Wang; <em>There Is a Road Outside</em> by WeChat author Taidao; and treasured appearances by musician Wanzi Lili on podcasts such as <em>Unusual Travel</em>. My own understanding of what being a digital nomad meant began to take shape.</p>
+<p>In June 2023, I quit my job for the second time. This time I told my family everything early on. Determined to explore the digital nomad life, I set out to follow the signs of the universe. On July 1, I left China for the first time and began an <a href="https://mp.weixin.qq.com/s/3HohsxibitN8qhDYh-7SBw">overseas journey</a> spanning six months, five countries, and six cities.</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/20a32930-81ee-4489-ad54-e1fb4eb4e103.png/w=1376,h=5504,fit=scale-down" alt="Six months, five countries, six cities" ></figure><p>My immersive English study in the Philippines suddenly opened up my English way of thinking. After the awkward experience of not understanding the airport announcements in Manila, I turned that embarrassment into a powerful motivation to improve my listening skills. In Malaysia, with little to do, I began exploring the world of English podcasts. Listening to them even improved my English reading speed.</p>
+<p>In the Chinese podcast world, the Xiaoyuzhou app stands head and shoulders above the rest. But once I entered the world of English podcasts, I started to struggle. At first I used Apple&rsquo;s built-in Podcasts app, but being unable to search individual episodes within a show was a major problem. So I switched to the highly acclaimed Overcast, only to find that it had no listening history and its search also had shortcomings; I began to miss Xiaoyuzhou&rsquo;s simplicity and ease of use. Looking for an app with playlists, I also tried Pocket Casts and other podcast apps. After three months of listening, from Malaysia to Thailand to Laos, I found that while every app had its strengths, none of them alone met all my needs.</p>
+<p>After moving among all these English podcast apps and hesitating for a while, I finally decided to build an English podcast app that I would find good enough myself.</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/1634c44a-ad2c-47c5-9044-76d59576466a.jpeg/w=1376,h=5504,fit=scale-down" alt="Hesitation on November 21, 2023" ></figure><h2 id="ii-get-to-work-take-what-you-love-to-the-extreme">II. Get to Work: Take What You Love to the Extreme</h2>
+<p>There is another way to tell the story.</p>
+<p>After receiving my master&rsquo;s degree, I worked in Android development at a large tech company for three years. Yet I always felt that I was not an outstanding programmer, nor was I passionate enough about programming itself. I needed a driving force.</p>
+<p>When I quit my job and came to Dali in 2020, I was very anxious. After losing my job title, what value did I have to society? How should I introduce myself to others? A young person who had quit his job and come to Dali to escape reality; a mediocre programmer; an engineering student with no hobbies at all?</p>
+<p>Strangely, that anxiety disappeared after I returned to Shenzhen and buried myself in job hunting. The busy rhythm of life in a big city makes it easy to avoid thinking about life&rsquo;s major questions. A track and definition imposed from outside can save you from having to seek yourself.</p>
+<p>My <a href="https://mp.weixin.qq.com/s/Wo8IsHneaDvK_pKF9CMsmw">seven-day trip to Yangshuo</a> during the Qingming Festival in 2022 once again showed me the vitality that people radiate in an untamed, free environment: listening to babbling streams under an umbrella in a mountain-ringed village; singing songs around a bonfire with people I had just met; suspended in midair, caught between a hard rock face and the void below; looking back at the pitch-black way I had come through a crack deep inside a cave, wearing a helmet; speeding along country roads on a motorbike toward a valley for stream trekking; and the moving companions I met along the way.</p>
+<p>Soon after returning from Yangshuo, I bought a Yamaha acoustic guitar and began to learn to play. I wanted to relive the romantic, heart-stirring atmosphere of singing together. It was utterly different from the world of programming, a refuge outside of work.</p>
+<p>As a programmer with a good income and very low expenses, as long as I stayed in my job until 35, my savings and investments would be enough for a financially independent, early-retirement life—provided I did not marry, have children, and stepped back from the front line. That was the grand vision I had drawn for myself then.</p>
+<p>But was something wrong with it? Could the reassurance that &ldquo;things will be better later&rdquo; justify suppressing and enduring my present physical and mental feelings? What if the future never arrived? Was the present only a stepping stone to the future? From high school to university to work, how many expectations like this do our lives contain? Have we, living in the future we once looked forward to, really become happy?</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/73224e36-c243-4c29-8234-636fe634c115.jpeg/w=1376,h=5504,fit=scale-down"></figure><p>In December 2020, at Shuli Library in Dali Ancient Town, a slightly chubby and kind young man greeted me. He was Ren: a Google programmer who had quit his job, a co-builder of the Dali 706 community, and later the initiator of &ldquo;Summer of the Tile Cat.&rdquo; Before he left, he gave me one sentence: &ldquo;Take what you love to the extreme, and opportunities will appear.&rdquo;</p>
+<p>In China&rsquo;s education system, no one cares what you love. What matters is the contribution you make to the country, society, and family, and you are told what you should become.</p>
+<p>In February 2023, in a digital nomad writing class, I recorded a concern in my daily writing: “If I do not go out and explore, life may go smoothly and I may be well-off in middle age, but I will always feel that another possible life did not happen, and I will feel a little unwilling to let it go. But if I quit my job again and go exploring, then at 40 I still have no stable income, have not started a family, and am still drifting alone—can I accept myself like that? Can I remain inwardly steadfast in the face of what family, acquaintances, and strangers say?”</p>
+<p>But the seed had already sprouted and the voice inside could no longer be suppressed. Perhaps, like the painter in <em>The Moon and Sixpence</em>, you cannot ignore your inner voice. Listening for the signs of the universe and entrusting my back to it—this was my answer to the universe.</p>
+<p>The first time I arrived in a foreign country, the journey did have its bumps because of the language barrier, but none of the dangers my family and friends warned me about happened. In an environment where no one knows you, you have more time to face the questions in your heart: Is this the life I want? Is this a life I can have?</p>
+<p>Yes, I like this freedom and this uncertainty. But how could I become a digital nomad? I looked for answers in podcasts, until I heard Levels, the founder of the Nomad List website, share his story. His plan, while staying at his parents&rsquo; house, was to release one software product each month: twelve independent products in twelve consecutive months. Before he had finished releasing all twelve, he became an overnight success through media coverage of the plan and Nomad List, which met the needs of digital nomads.</p>
+<p>What Levels taught me was to observe your real needs, solve your real needs, iterate quickly, and be product-oriented.</p>
+<p>In another podcast, Silicon Valley investor Naval said, “Don&rsquo;t imitate others. No one can beat you at being yourself.”</p>
+<p>Another Silicon Valley investor, a former Lisp programmer and also a painter, Paul Gram, wrote on his blog: “Be driven by curiosity, not by a sense of duty. Follow your curiosity rather than doing what you are considered supposed to do. Curiosity never lies.”</p>
+<p>All the voices converged on the same phrase, returning to Ren&rsquo;s words: &ldquo;Do what you love.&rdquo; In Laos that December, I decided to make a podcast app of my own.</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/930db82f-dc04-4586-9442-07d83ba22446.jpeg/w=1376,h=5504,fit=scale-down" alt="The start on December 14, 2023" ></figure><h2 id="iii-a-podcast-adventure">III. A Podcast Adventure</h2>
+<p>I used #buildinpublic to mark updates on the app&rsquo;s development in my WeChat Moments and on Twitter. After more than a month, I completed the first version at the end of January 2024. It was ultimately named &ldquo;Podventure,&rdquo; which in Chinese means &ldquo;podcast adventure.&rdquo;</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/buildinpublic?src=hash&amp;ref_src=twsrc%5Etfw">#buildinpublic</a><br>As a podcast listener for more than 5 years, the idea of ​​making my own podcast app appeared from last month. The reason is simple. Among English podcast apps, I found that there is no one podcast app which completely satisfies me, so I want to make one myself🐣. <a href="https://t.co/y2lzAWB3TC">pic.twitter.com/y2lzAWB3TC</a></p>&mdash; Harold Gao (@HaroldGaoX) <a href="https://twitter.com/HaroldGaoX/status/1735289031003689129?ref_src=twsrc%5Etfw">December 14, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>My own adventure began in 2020, when I listened to Jade&rsquo;s podcast <em>Evening Breeze</em>. From late 2020 to early 2021, I spent an anxious yet highly inspiring winter in Dali Ancient Town. From late 2023 to early 2024, another winter, I returned to Dali from my journey through Southeast Asia and completed development of this independent app here.</p>
+<p>It is a podcast app born to meet my need to listen to English podcasts, and also an experiment in combining my passions and skills. One podcast episode leads you to a person; one person offers an idea; one idea opens a world. In that sense, this small, newly born podcast app is connected to a large, rich, and fascinating world of podcasts.</p>
+<p>That is the end of my story. I hope <a href="https://www.haroldgao.com/podventure/">Podventure</a> can help you explore what you are looking for in the world of podcasts and continue your own life adventure. I look forward to hearing your story.</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/a4cd1720-113c-40e8-939d-c85eaf6d4c44.png/w=1376,h=5504,fit=scale-down" alt="Podventure app icon" ></figure>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Harold Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        Jan 27, 2024
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/podcast/">podcast</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/spanish1/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">My First Month Learning Spanish</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/opml/">
+            <span class="next-text nav-default">How to Import Your Apple Podcast Subscription List into Other Podcast Apps</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+<p style="margin: 0 auto;padding: 1em 1em;
+background-color: #eaedf1;
+border-radius: 5px;">
+  <script async src="https://eomail6.com/form/d8fc059c-5876-11ef-8480-59031bd0151b.js"
+    data-form="d8fc059c-5876-11ef-8480-59031bd0151b"></script>
+</p></footer>
+  </article>
+        </div>
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'haroldgaox';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xiangaoole@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/HaroldGaoX" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/haroldgaox/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/xiangaoole" class="iconfont icon-github" title="github"></a>
+  <a href="https://haroldgao.com/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021 - 
+    2026<span class="heart"><i class="iconfont icon-heart"></i></span><span>Harold Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

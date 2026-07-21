@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>如何將 Apple Podcast 的訂閱列表匯入其他播客 app - 哈羅德的博客</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author"
+  content="Harold Gao" /><meta name="description" content="一、什麼是 OPML 格式 OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。 播客 app 讀取" /><meta name="keywords"
+  content="Harold, blog" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.118.2 with theme even" />
+
+
+<link rel="canonical" href="https://haroldgao.com/zh-tw/post/opml/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+
+
+<link href="/sass/main.min.61a4559171d2b927ae86e7abce615dc2e5cc2c903a4f05f51d03b6e22dee0856.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="如何將 Apple Podcast 的訂閱列表匯入其他播客 app" />
+<meta property="og:description" content="一、什麼是 OPML 格式 OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。 播客 app 讀取" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://haroldgao.com/zh-tw/post/opml/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-01-26T10:53:54+07:00" />
+<meta property="article:modified_time" content="2024-01-26T10:53:54+07:00" />
+<meta itemprop="name" content="如何將 Apple Podcast 的訂閱列表匯入其他播客 app">
+<meta itemprop="description" content="一、什麼是 OPML 格式 OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。 播客 app 讀取"><meta itemprop="datePublished" content="2024-01-26T10:53:54+07:00" />
+<meta itemprop="dateModified" content="2024-01-26T10:53:54+07:00" />
+<meta itemprop="wordCount" content="761">
+<meta itemprop="keywords" content="podcast," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何將 Apple Podcast 的訂閱列表匯入其他播客 app"/>
+<meta name="twitter:description" content="一、什麼是 OPML 格式 OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。 播客 app 讀取"/>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E0JZ6L8R2S"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-E0JZ6L8R2S', { 'anonymize_ip': true });
+}
+</script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/zh-tw/" class="logo">哈羅德的博客</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+
+<div class="language-selector">
+  
+  <select class="language-select" onchange="location = this.value;"><option value="/post/opml/" >English</option><option value="/zh-cn/post/opml/" >简体中文</option><option value="/zh-tw/post/opml/"  selected>繁體中文</option></select>
+</div>
+
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/zh-tw/">
+        <li class="mobile-menu-item">首頁</li>
+      </a><a href="/zh-tw/post/">
+        <li class="mobile-menu-item">所有文章</li>
+      </a><a href="/zh-tw/categories/">
+        <li class="mobile-menu-item">合集</li>
+      </a><a href="/zh-tw/resume/">
+        <li class="mobile-menu-item">履歷</li>
+      </a>
+  </ul>
+
+  
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/zh-tw/" class="logo">哈羅德的博客</a>
+</div>
+
+
+
+<div class="language-selector">
+  
+  <select class="language-select" onchange="location = this.value;"><option value="/post/opml/" >English</option><option value="/zh-cn/post/opml/" >简体中文</option><option value="/zh-tw/post/opml/"  selected>繁體中文</option></select>
+</div>
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/">首頁</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/post/">所有文章</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/categories/">合集</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/zh-tw/resume/">履歷</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">如何將 Apple Podcast 的訂閱列表匯入其他播客 app</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> Jan 26, 2024 </span>
+        <div class="post-category">
+            <a href="/zh-tw/categories/podcast/"> podcast </a>
+            </div>
+        
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <h2 id="一什麼是-opml-格式">一、什麼是 OPML 格式</h2>
+<p>OPML 檔案是播客 app 通用的播客列表儲存格式。它是一種文字檔，可用任何文字編輯器開啟查看，內含一份播客資料取得網址的列表。</p>
+<p>播客 app 讀取 OPML 檔案後，就能匯入你訂閱的播客節目資訊（RSS 位址）。</p>
+<h2 id="二如何將小宇宙-app-的訂閱列表匯入其他播客-app">二、如何將小宇宙 app 的訂閱列表匯入其他播客 app</h2>
+<p>首先，在小宇宙 app 的設定頁面將訂閱列表匯出為檔案：</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/33db8c0b-8b98-4eb4-aea9-52de351644d6.gif/w=1376,h=5504,fit=scale-down" alt="小宇宙播客 app 匯出訂閱列表 OPML" ></figure><p>接著，選擇你的目標播客 app，加入 OPML 檔案：</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/66495093-6584-4d55-ae66-4a5194e7f961.gif/w=1376,h=5504,fit=scale-down" alt="Podventure 播客 app 匯入訂閱列表 OPML" ></figure><h2 id="三如何將-apple-podcast-的訂閱列表匯入其他播客-app">三、如何將 Apple Podcast 的訂閱列表匯入其他播客 app</h2>
+<p>首先，開啟 Shortcuts 的 iCloud Link，將它加入你的 Shortcuts，執行這個捷徑，並將訂閱列表儲存為檔案：</p>
+<p><a href="https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915">https://www.icloud.com/shortcuts/44009520675540d7945263e088f6e915</a></p>
+<p>（此 Shortcuts 連結由 Harold 建立及維護；最新版本可從 <a href="https://haroldgao.com/post/opml">https://haroldgao.com/post/opml</a> 取得。）</p>
+<figure style="margin: auto;">
+  <img 
+    loading="lazy"
+    src="https://imagedelivery.net/kDRCweMmqLnTPNlbum-pYA/prod/embed/45c5cec7-1687-425f-95ae-48e2c665ccf3.gif/w=1376,h=5504,fit=scale-down" alt="Apple Podcast 的訂閱列表匯出" ></figure><p>接著，如同上一步，將檔案匯入你的目標播客 app 即可。</p>
+<h2 id="ps-opml-格式規範">P.S. OPML 格式規範</h2>
+<p><a href="http://opml.org/spec2.opml">OPML 檔案</a>是一種用於列表管理的簡單 XML 格式檔案，廣泛運用於 RSS 列表訂閱。你可以把它理解為一棵多叉樹，每個節點稱為 outline；每個節點既可以是枝幹的末端，也可以再分出其他枝幹。</p>
+<p>由於播客列表只需要提供一個列表節點，因此通常只有一層 outline（Overcast 使用），或兩層（小宇宙使用）。</p>
+<p>Overcast 的一層結構如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">播客1的資料</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">播客2的資料</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;outline</span> <span class="err">播客3的資料</span><span class="nt">/&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>小宇宙的兩層結構如下，多了一個根節點 outline：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="nt">&lt;outline&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">播客1的資料</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">播客2的資料</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;outline</span> <span class="err">播客3的資料</span><span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/outline&gt;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>播客的資料格式為 RSS 檔案。在通用 OPML 檔案最基本的 outline 節點中，會有一個 text 欄位儲存播客節目名稱，以及一個 xmlUrl 欄位儲存播客節目的 RSS 檔案下載位址。</p>
+<p>一個播客的所有資料都儲存在 RSS 檔案中；該檔案包含節目介紹、圖片、分類等資訊，並有一份 item 列表儲存每一集的標題、show notes、圖片、時長、音訊檔下載位址等資訊。</p>
+<p>泛用型播客 app 透過解析這類通用的 OPML 或 RSS 檔案，就能訂閱播客節目列表，或顯示單一播客節目的所有資訊。<a href="https://www.haroldgao.com/podventure/">Podventure</a> 就是這樣一款泛用型播客 app。</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Harold Gao</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        Jan 26, 2024
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/zh-tw/tags/podcast/">podcast</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/zh-tw/post/podventure/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">当一个播客爱好者决定开发自己的播客APP</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/zh-tw/post/engshare2/">
+            <span class="next-text nav-default">英文推薦2:夕霧花園&#43;幸福觀</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+<p style="margin: 0 auto;padding: 1em 1em;
+background-color: #eaedf1;
+border-radius: 5px;">
+  <script async src="https://eomail6.com/form/90fc0282-5912-11ef-84d5-5d60d9348d6c.js"
+    data-form="90fc0282-5912-11ef-84d5-5d60d9348d6c"></script>
+</p></footer>
+  </article>
+        </div>
+        <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'haroldgaox';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:xiangaoole@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/HaroldGaoX" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.linkedin.com/in/haroldgaox/" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/xiangaoole" class="iconfont icon-github" title="github"></a>
+  <a href="https://haroldgao.com/zh-tw/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021 - 
+    2026<span class="heart"><i class="iconfont icon-heart"></i></span><span>Harold Gao</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-E0JZ6L8R2S', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

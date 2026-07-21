@@ -51,21 +51,77 @@
   </url>
   
   <url>
-    <loc>https://haroldgao.com/post/opml/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <loc>https://haroldgao.com/post/english2024/</loc>
+    <lastmod>2024-11-16T09:58:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/gapyear2024/</loc>
+    <lastmod>2024-11-16T15:35:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/spanish4/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/categories/spanish/</loc>
+    <lastmod>2024-06-26T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/spanish3/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/spanish2/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/spanish1/</loc>
+    <lastmod>2024-05-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/tags/podcast/</loc>
-    <lastmod>2024-01-26T10:53:54+07:00</lastmod>
+    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://haroldgao.com/categories/podcast/</loc>
+    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/podventure/</loc>
+    <lastmod>2024-01-27T10:53:54+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://haroldgao.com/post/opml/</loc>
     <lastmod>2024-01-26T10:53:54+07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
